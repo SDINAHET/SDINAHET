@@ -86,3 +86,4 @@ Here are some ideas to get you started:
 [![GitHub Activity](https://github-readme-activity-graph.cyclic.app/graph?username=SDINAHET&theme=react-dark&hide_border=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
 
 
+[![SDINAHET's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=xcode)](https://github.com/ashutosh00710/github-readme-activity-graph)
