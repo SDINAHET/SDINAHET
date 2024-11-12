@@ -17,7 +17,7 @@ Here are some ideas to get you started:
 -->
 
 - 🔭 I’m currently working on HBnB (clone AIRBNB)
-- 🌱 I’m currently learning few langage
+- 🌱 I’m currently learning few langages
 
 ## 📊 GitHub Statistics
 
