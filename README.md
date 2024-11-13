@@ -22,10 +22,10 @@ Here are some ideas to get you started:
 
 
 ## 📊 GitHub Statistics
-
-![Ho2bes's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SDINAHET&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=dark)
 ![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=SDINAHET&layout=compact&theme=dark)
-[![trophy](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onedark&no-frame=true&column=5)](https://github.com/ryo-ma/github-profile-trophy)
+![Ho2bes's GitHub Stats](https://github-readme-stats.vercel.app/api?username=SDINAHET&show_icons=true&hide_title=true&count_private=true&hide=prs&theme=dark)
+
+
 <!--
 ![Contribution Graph](https://github-contribution-graph.ez4o.com/?username=SDINAHET&theme=dark)
 -->
@@ -87,3 +87,5 @@ Here are some ideas to get you started:
 
 
 [![SDINAHET's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=xcode)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+[![trophy](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onedark&no-frame=true&column=5)](https://github.com/ryo-ma/github-profile-trophy)
