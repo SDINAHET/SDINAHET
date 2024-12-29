@@ -200,12 +200,12 @@ Here are some ideas to get you started:
     <td align="center"><img src="https://img.shields.io/badge/UnitTest-5A9DD1?style=for-the-badge&logo=python&logoColor=white" alt="UnitTest"></td>
   </tr>
 </table> -->
-
+<!--
 ## Dashboard of Skills
 
 <table>
   <tr>
-    <th colspan="6" align="left">Programming Languages</th>
+    <th colspan="6" align="left"> 🖥️ Programming Languages</th>
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C"></td>
@@ -216,7 +216,7 @@ Here are some ideas to get you started:
     <td align="center"><img src="https://img.shields.io/badge/Java-%23007396.svg?style=for-the-badge&logo=java&logoColor=white&logo=coffeescript" alt="Java"></td>
   </tr>
   <tr>
-    <th colspan="6" align="left">Databases</th>
+    <th colspan="6" align="left"> 🗄️Databases</th>
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"></td>
@@ -225,7 +225,7 @@ Here are some ideas to get you started:
     <td colspan="3"></td>
   </tr>
   <tr>
-    <th colspan="6" align="left">Frameworks and Libraries</th>
+    <th colspan="6" align="left"> 📚 Frameworks and Libraries</th>
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React"></td>
@@ -235,23 +235,213 @@ Here are some ideas to get you started:
     <td colspan="2"></td>
   </tr>
   <tr>
-    <th colspan="6" align="left">Tools</th>
+    <th colspan="6" align="left"> 🛠️ Tools</th>
   </tr>
   <tr>
     <td align="center"><img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker"></td>
     <td align="center"><img src="https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Microsoft Excel"></td>
+    <!-- <td align="center"><img src="https://your-hosting-service.com/excel-logo.png" alt="Microsoft Excel" width="60" height="60"><br>Microsoft Excel</td>
     <td align="center"><img src="https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visualstudio&logoColor=white" alt="VBA"></td>
     <td align="center"><img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"></td>
     <td align="center"><img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code"></td>
     <td colspan="1"></td>
   </tr>
   <tr>
-    <th colspan="6" align="left">Testing Frameworks</th>
+    <th colspan="6" align="left"> ✅ Testing Frameworks</th>
+  </tr>
+  <!-- <tr>
+    <td align="center"><img src="https://img.shields.io/badge/UnitTest-5A9DD1?style=for-the-badge&logo=python&logoColor=white" alt="UnitTest"></td>
+    <td align="center"><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="UnitTest" width="60" height="60"><br>UnitTest</td>
+     <td align="center"><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest" width="60" height="60"><br>Pytest</td>
+    <!-- <td align="center"><img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></td>
+    <td colspan="4"></td>
+  </tr>
+</table> -->
+
+
+<!-- ## 🚀 Dashboard of Skills
+
+<table>
+  <tr>
+    <th colspan="6" align="left"> 🖥️ Programming Languages</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://img.shields.io/badge/UnitTest-5A9DD1?style=for-the-badge&logo=python&logoColor=white" alt="UnitTest"></td>
-    <!-- <td align="center"><img src="https://img.shields.io/badge/Jest-C21325?style=for-the-badge&logo=jest&logoColor=white" alt="Jest"></td> -->
+    <td align="center">
+      <img src="https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white" alt="C">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white" alt="HTML5">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white" alt="CSS3">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E" alt="JavaScript">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54" alt="Python">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Java-%23007396.svg?style=for-the-badge&logo=java&logoColor=white&logo=coffeescript" alt="Java">
+    </td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 🗄️ Databases</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/sqlite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white" alt="SQLite">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/MongoDB-%234ea94b.svg?&style=for-the-badge&logo=mongodb&logoColor=white" alt="MongoDB">
+    </td>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 📚 Frameworks and Libraries</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white" alt="Node.js">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Express.js-%23000000.svg?style=for-the-badge&logo=express&logoColor=white" alt="Express.js">
+    </td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 🛠️ Tools</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Microsoft Excel">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visualstudio&logoColor=white" alt="VBA">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git">
+    </td>
+    <td align="center">
+      <img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code">
+    </td>
+    <td colspan="1"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> ✅ Testing Frameworks</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="UnitTest" width="60" height="60"><br>UnitTest
+    </td>
+    <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest" width="60" height="60"><br>Pytest
+    </td>
     <td colspan="4"></td>
+  </tr>
+</table> -->
+
+
+### Dashboard of Skills
+
+<table>
+  <tr>
+    <th colspan="6" align="left"> 🖥️ Programming Languages</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="60" height="60"><br>C
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="60" height="60"><br>HTML5
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="60" height="60"><br>CSS3
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="60" height="60"><br>JavaScript
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="60" height="60"><br>Python
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="60" height="60"><br>Java
+    </td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 🗄️ Databases</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="60" height="60"><br>MySQL
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="60" height="60"><br>SQLite
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="60" height="60"><br>MongoDB
+    </td>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 📚 Frameworks and Libraries</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="60" height="60"><br>React
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="60" height="60"><br>Node.js
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="Spring Boot" width="60" height="60"><br>Spring Boot
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js" width="60" height="60"><br>Express.js
+    </td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 🛠️ Tools</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="60" height="60"><br>Docker
+    </td>
+      <td align="center">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" alt="Microsoft Excel" width="60" height="60"><br>Microsoft Excel
+  </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="60" height="60"><br>Git
+    </td>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="60" height="60"><br>VSCode
+    </td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> ✅ Testing Frameworks</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="UnitTest" width="60" height="60"><br>UnitTest
+    </td>
+      <td align="center">
+      <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest" width="60" height="60"><br>Pytest
+    </td>
+     <td colspan="4"></td>
   </tr>
 </table>
 
@@ -270,9 +460,8 @@ Here are some ideas to get you started:
 - **C**: System-level programming and high-performance application development.
 - **JavaScript**: Interactive web applications and frontend development.
 - **Python**: Scripting, data analysis, and application development.
-<!--
 - **Docker**: Containerization and microservices architecture.
-- **Prisma**: Next-generation ORM for PostgreSQL and MongoDB.
+<!--- **Prisma**: Next-generation ORM for PostgreSQL and MongoDB.
 - **PostgreSQL**: Robust relational database management.
 -->
 
@@ -290,22 +479,23 @@ Here are some ideas to get you started:
 - [Team bzh: La nuit de l'info](https://www.nuitdelinfo.com/inscription/equipes/673)
 
 
-
+<br><br>
 
 [![](https://visitcount.itsvg.in/api?id=SDINAHET&icon=0&color=0)](https://visitcount.itsvg.in)
-![Visits](https://img.shields.io/badge/visits-123-blue?style=for-the-badge)
-
 <!--
-[![](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onestar&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
+![Visits](https://img.shields.io/badge/visits-123-blue?style=for-the-badge) -->
 
 
-[![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SDINAHET&repo=holbertonschool-higher_level_programming&theme=dark)](https://github.com/SDINAHET/holbertonschool-higher_level_programming)
+<!-- [![](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onestar&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy) -->
+
+
+<!-- [![ReadMe Card](https://github-readme-stats.vercel.app/api/pin/?username=SDINAHET&repo=holbertonschool-higher_level_programming&theme=dark)](https://github.com/SDINAHET/holbertonschool-higher_level_programming)
 
 ![Contribution Graph](https://github-contribution-graph.ez4o.com/?username=SDINAHET&theme=dark)
 -->
-[![GitHub Activity](https://github-readme-activity-graph.cyclic.app/graph?username=SDINAHET&theme=react-dark&hide_border=true)](https://github.com/Ashutosh00710/github-readme-activity-graph)
+<!-- [![GitHub Activity](https://github-readme-activity-graph.cyclic.app/graph?username=SDINAHET&theme=react-dark&hide_border=true)](https://github.com/Ashutosh00710/github-readme-activity-graph) -->
 
 
 [![SDINAHET's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=xcode)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
-[![trophy](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onedark&no-frame=true&column=5)](https://github.com/ryo-ma/github-profile-trophy)
+<!-- [![trophy](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onedark&no-frame=true&column=5)](https://github.com/ryo-ma/github-profile-trophy) -->
