@@ -550,11 +550,16 @@ Here are some ideas to get you started:
       </a>
     </td>
     <td align="center">
+    <a href="https://en.wikipedia.org/wiki/GitHub">
+      <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="40" height="40"><br>GitHub
+    </a>
+  </td>
+    <td align="center">
       <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40"><br>VSCode
       </a>
     </td>
-    <td colspan="2"></td>
+    <td colspan="1"></td>
   </tr>
   <tr>
     <th colspan="6" align="left"> ✅ Testing Frameworks</th>
