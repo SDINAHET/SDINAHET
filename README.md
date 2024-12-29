@@ -1,5 +1,7 @@
 ## Hi there 👋 I'm Stéphane
 
+![Visits](https://img.shields.io/badge/visits-123-blue?style=for-the-badge)
+
 Welcome here,
 <!--
 **SDINAHET/SDINAHET** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
@@ -18,6 +20,11 @@ Here are some ideas to get you started:
 
 ## 🚀 Current Projects
 - **HBnB (Airbnb Clone)**: Working on replicating core functionalities of Airbnb, focusing on backend logic, user authentication, and database management.
+
+-site: https://hbnb.alwaysdata.net/
+
+-github: https://github.com/SDINAHET/HBnB
+
 - **Learning New Languages**: Constantly improving my skills in JavaScript, Python, and more.
 
 
@@ -32,7 +39,7 @@ Here are some ideas to get you started:
 
 ## 💻 Tech Stack
 
-![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+<!-- ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
 ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
@@ -46,6 +53,33 @@ Here are some ideas to get you started:
 ![Java](https://img.shields.io/badge/Java-007396?style=for-the-badge&logo=java&logoColor=white)
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Excel](https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+![VBA](https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visual-studio&logoColor=white) -->
+### Programming Languages:
+- ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
+- ![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
+- ![CSS3](https://img.shields.io/badge/css3-%231572B6.svg?&style=for-the-badge&logo=css3&logoColor=white)
+- ![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)
+- ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54)
+- ![Java](https://img.shields.io/badge/Java-%23007396.svg?style=for-the-badge&logo=java&logoColor=white&logo=coffeescript)
+
+### Version Control:
+- ![Git](https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white)
+
+### Databases:
+- ![MySQL](https://img.shields.io/badge/mysql-%2300f.svg?&style=for-the-badge&logo=mysql&logoColor=white)
+- ![SQLite](https://img.shields.io/badge/SQLite-%2307405e.svg?&style=for-the-badge&logo=sqlite&logoColor=white)
+
+### Frameworks and Libraries:
+- ![Node.js](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
+- ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
+- ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+
+### Tools:
+- ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
+- ![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+- ![VBA](https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visualstudio&logoColor=white)
+
 
 <!-- [Prisma](https://img.shields.io/badge/Prisma-1B222D?style=for-the-badge&logo=prisma&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) -->
@@ -68,11 +102,23 @@ Here are some ideas to get you started:
 
 ## 🙂😄 Thank you for visiting my GitHub profile! ⚡💬
 
+<!-- ## 📫 Connect with Me -->
+<!-- - Email: [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
+- LinkedIn: [linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/) -->
 ## 📫 Connect with Me
-- Email: [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
----
+- ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white) [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
+- ![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) [linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/)
+
+
+## La nuit de l'info (December 5, 2024 to December 6 2024):
+- [Team bzh: La nuit de l'info](https://www.nuitdelinfo.com/inscription/equipes/673)
+
+
+
 
 [![](https://visitcount.itsvg.in/api?id=SDINAHET&icon=0&color=0)](https://visitcount.itsvg.in)
+![Visits](https://img.shields.io/badge/visits-123-blue?style=for-the-badge)
+
 <!--
 [![](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onestar&no-bg=true&no-frame=true)](https://github.com/ryo-ma/github-profile-trophy)
 
