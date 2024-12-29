@@ -192,7 +192,7 @@ Here are some ideas to get you started:
     <td align="center"><img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"></td>
 	<td align="center"><img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code"></td>
     <td colspan="1"></td>
-    <td colspan="2"></td>
+    <!-- <td colspan="2"></td> -->
   </tr>
 </table>
 
