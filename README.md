@@ -1,6 +1,6 @@
 ## Hi there 👋 I'm Stéphane
 
-![Visits](https://img.shields.io/badge/visits-123-blue?style=for-the-badge)
+<!-- ![Visits](https://img.shields.io/badge/visits-123-blue?style=for-the-badge) -->
 
 Welcome here,
 <!--
@@ -19,11 +19,9 @@ Here are some ideas to get you started:
 -->
 
 ## 🚀 Current Projects
-- **HBnB (Airbnb Clone)**: Working on replicating core functionalities of Airbnb, focusing on backend logic, user authentication, and database management.
+- **HBnB (Airbnb Clone)**: Working on replicating core functionalities of Airbnb, focusing on backend logic, user authentication, and database management (site: https://hbnb.alwaysdata.net/ github: https://github.com/SDINAHET/HBnB)
 
--site: https://hbnb.alwaysdata.net/
-
--github: https://github.com/SDINAHET/HBnB
+<!-- -site: https://hbnb.alwaysdata.net/ github: https://github.com/SDINAHET/HBnB -->
 
 - **Learning New Languages**: Constantly improving my skills in JavaScript, Python, and more.
 
