@@ -52,7 +52,9 @@ Here are some ideas to get you started:
 ![Spring Boot](https://img.shields.io/badge/Spring_Boot-6DB33F?style=for-the-badge&logo=springboot&logoColor=white)
 ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
 ![Excel](https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-![VBA](https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visual-studio&logoColor=white) -->
+![VBA](https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visual-studio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 
 <!-- ### Programming Languages:
 - ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
@@ -74,6 +76,8 @@ Here are some ideas to get you started:
 - ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
 - ![Microsoft Excel](https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 - ![VBA](https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visualstudio&logoColor=white)
+![VS Code](https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+
 
 ## Dashboard of Skills
 
@@ -186,6 +190,8 @@ Here are some ideas to get you started:
     <td align="center"><img src="https://img.shields.io/badge/Microsoft%20Excel-%23319733.svg?style=for-the-badge&logo=microsoft-excel&logoColor=white" alt="Microsoft Excel"></td>
     <td align="center"><img src="https://img.shields.io/badge/VBA-%23007ACC.svg?style=for-the-badge&logo=visualstudio&logoColor=white" alt="VBA"></td>
     <td align="center"><img src="https://img.shields.io/badge/git%20-%23F05033.svg?&style=for-the-badge&logo=git&logoColor=white" alt="Git"></td>
+	<td align="center"><img src="https://img.shields.io/badge/VSCode-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="Visual Studio Code"></td>
+    <td colspan="1"></td>
     <td colspan="2"></td>
   </tr>
 </table>
