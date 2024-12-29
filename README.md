@@ -354,7 +354,7 @@ Here are some ideas to get you started:
 </table> -->
 
 
-### Dashboard of Skills
+<!-- ### Dashboard of Skills
 
 <table>
   <tr>
@@ -442,6 +442,135 @@ Here are some ideas to get you started:
       <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest" width="60" height="60"><br>Pytest
     </td>
      <td colspan="4"></td>
+  </tr>
+</table> -->
+
+## 🚀 Dashboard of Skills
+
+<table>
+  <tr>
+    <th colspan="6" align="left"> 🖥️ Programming Languages</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/C_(programming_language)">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="40" height="40"><br>C
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/HTML5">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="40" height="40"><br>HTML5
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/CSS">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="40" height="40"><br>CSS3
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/JavaScript">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" alt="JavaScript" width="40" height="40"><br>JavaScript
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Python_(programming_language)">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="Python" width="40" height="40"><br>Python
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Java_(programming_language)">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/java/java-original.svg" alt="Java" width="40" height="40"><br>Java
+      </a>
+    </td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 🗄️ Databases</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/MySQL">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original.svg" alt="MySQL" width="40" height="40"><br>MySQL
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/SQLite">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite" width="40" height="40"><br>SQLite
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/MongoDB">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB" width="40" height="40"><br>MongoDB
+      </a>
+    </td>
+    <td colspan="3"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 📚 Frameworks and Libraries</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/React_(JavaScript_library)">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React" width="40" height="40"><br>React
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Node.js">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg" alt="Node.js" width="40" height="40"><br>Node.js
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Spring_Framework">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/spring/spring-original.svg" alt="Spring Boot" width="40" height="40"><br>Spring Boot
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Express.js">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js" width="40" height="40"><br>Express.js
+      </a>
+    </td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> 🛠️ Tools</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Docker_(software)">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="40" height="40"><br>Docker
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Microsoft_Excel">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" alt="Microsoft Excel" width="40" height="40"><br>Microsoft Excel
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Git">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40"><br>Git
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Visual_Studio_Code">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40"><br>VSCode
+      </a>
+    </td>
+    <td colspan="2"></td>
+  </tr>
+  <tr>
+    <th colspan="6" align="left"> ✅ Testing Frameworks</th>
+  </tr>
+  <tr>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Pytest">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest" width="40" height="40"><br>Pytest
+      </a>
+    </td>
+    <td align="center">
+      <a href="https://en.wikipedia.org/wiki/Unit_testing">
+        <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="UnitTest" width="40" height="40"><br>UnitTest
+      </a>
+    </td>
+    <td colspan="4"></td>
   </tr>
 </table>
 
