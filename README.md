@@ -948,6 +948,11 @@ Here are some ideas to get you started:
       </a><br><span style="color: white; font-weight: bold;">Microsoft Excel</span>
     </td>
     <td align="center">
+      <a href="https://fr.wikipedia.org/wiki/Visual_Basic_for_Applications">
+        <img src="https://cdn3.iconfinder.com/data/icons/flat-design-spreadsheet-set-5/24/macros-vba-512.png" alt="VBA" width="40" height="40">
+      </a><br><span style="color: white; font-weight: bold;">VBA</span>
+    </td>
+    <td align="center">
       <a href="https://en.wikipedia.org/wiki/Git">
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="40" height="40">
       </a><br><span style="color: white; font-weight: bold;">Git</span>
@@ -962,7 +967,7 @@ Here are some ideas to get you started:
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40">
       </a><br><span style="color: white; font-weight: bold;">VSCode</span>
     </td>
-    <td colspan="1"></td>
+    <!-- <td colspan="1"></td> -->
   </tr>
   <tr>
     <th colspan="6" align="left"> ✅ Testing Frameworks</th>
@@ -1007,6 +1012,7 @@ Here are some ideas to get you started:
 ### 🛠️ Tools
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="30" height="30"> **Docker**
 - <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" alt="Microsoft Excel" width="30" height="30"> **Microsoft Excel**
+- <img src="https://cdn3.iconfinder.com/data/icons/flat-design-spreadsheet-set-5/24/macros-vba-512.png" alt="VBA" width="30" height="30"> **VBA**
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="30" height="30"> **Git**
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="30" height="30"> **GitHub**
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="30" height="30"> **VSCode**
@@ -1049,6 +1055,7 @@ Here are some ideas to get you started:
     <td align="center" valign="top">
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original.svg" alt="Docker" width="30" height="30"><br>Docker<br>
       <img src="https://upload.wikimedia.org/wikipedia/commons/7/73/Microsoft_Excel_2013-2019_logo.svg" alt="Microsoft Excel" width="30" height="30"><br>Microsoft Excel<br>
+      <img src="https://cdn3.iconfinder.com/data/icons/flat-design-spreadsheet-set-5/24/macros-vba-512.png" alt="VBA" width="30" height="30"><br>VBA<br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg" alt="Git" width="30" height="30"><br>Git<br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/github/github-original.svg" alt="GitHub" width="30" height="30"><br>GitHub<br>
       <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="30" height="30"><br>VSCode
