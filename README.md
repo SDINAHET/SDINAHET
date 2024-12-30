@@ -35,7 +35,7 @@ Here are some ideas to get you started:
 ![Contribution Graph](https://github-contribution-graph.ez4o.com/?username=SDINAHET&theme=dark)
 -->
 
-## 💻 Tech Stack
+## 🚀 Tech Stack
 
 <!-- ![C](https://img.shields.io/badge/C-00599C?style=for-the-badge&logo=c&logoColor=white)
 ![HTML5](https://img.shields.io/badge/html5%20-%23E34F26.svg?&style=for-the-badge&logo=html5&logoColor=white)
@@ -848,9 +848,9 @@ Here are some ideas to get you started:
   </tr>
 </table> -->
 
-## 🚀 Dashboard of Skills
+<!-- ## 🚀 Dashboard of Skills -->
 
-<table>
+<!-- <table>
   <tr>
     <th colspan="6" align="left"> 🖥️ Programming Languages</th>
   </tr>
@@ -967,7 +967,6 @@ Here are some ideas to get you started:
         <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode" width="40" height="40">
       </a><br><span style="color: white; font-weight: bold;">VSCode</span>
     </td>
-    <!-- <td colspan="1"></td> -->
   </tr>
   <tr>
     <th colspan="6" align="left"> ✅ Testing Frameworks</th>
@@ -985,12 +984,12 @@ Here are some ideas to get you started:
     </td>
     <td colspan="4"></td>
   </tr>
-</table>
+</table> -->
 
 
-## 🚀 Dashboard of Skills
+<!-- ## 🚀 Dashboard of Skills -->
 
-### 🖥️ Programming Languages
+<!-- ### 🖥️ Programming Languages
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/c/c-original.svg" alt="C" width="30" height="30"> **C**
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="HTML5" width="30" height="30"> **HTML5**
 - <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="CSS3" width="30" height="30"> **CSS3**
@@ -1019,7 +1018,7 @@ Here are some ideas to get you started:
 
 ### ✅ Testing Frameworks
 - <img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest" width="30" height="30"> **Pytest**
-- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="UnitTest" width="30" height="30"> **UnitTest**
+- <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg" alt="UnitTest" width="30" height="30"> **UnitTest** -->
 
 
 <!-- ## 🚀 Dashboard of Skills
@@ -1068,7 +1067,7 @@ Here are some ideas to get you started:
 </table> -->
 
 
-## 🚀 Dashboard of Skills
+<!-- ## 🚀 Dashboard of Skills -->
 
 <table>
   <tr>
