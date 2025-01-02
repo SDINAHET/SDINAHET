@@ -1252,6 +1252,15 @@ Here are some ideas to get you started:
 
 ![SDINAHET's Streak](https://streak-stats.demolab.com?user=SDINAHET&theme=react&card_width=1000)
 
+
+![Activity Graph](https://activity-graph.herokuapp.com/graph?username=SDINAHET&theme=react-dark&area=true&hide_border=true&custom_title=Contributions%20sur%206%20mois)
+
+
+
+[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%206%20Months&from=2024-07-01&to=2025-01-02)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%2012%20Months&from=2024-01-01&to=2025-01-02)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
 ## 🛠 Technologies Used
 
 - **C**: System-level programming and high-performance application development.
