@@ -1250,10 +1250,10 @@ Here are some ideas to get you started:
 
 ## Total Contributions and Streaks
 
-![SDINAHET's Streak](https://streak-stats.demolab.com?user=SDINAHET&theme=react&card_width=1000)
+<!-- ![SDINAHET's Streak](https://streak-stats.demolab.com?user=SDINAHET&theme=react&card_width=1000)
 
 
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=SDINAHET&theme=react-dark&area=true&hide_border=true&custom_title=Contributions%20sur%206%20mois)
+![Activity Graph](https://activity-graph.herokuapp.com/graph?username=SDINAHET&theme=react-dark&area=true&hide_border=true&custom_title=Contributions%20sur%206%20mois) -->
 
 
 
