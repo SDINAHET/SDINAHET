@@ -1248,18 +1248,7 @@ Here are some ideas to get you started:
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white) -->
 
 
-## Total Contributions and Streaks
 
-<!-- ![SDINAHET's Streak](https://streak-stats.demolab.com?user=SDINAHET&theme=react&card_width=1000)
-
-
-![Activity Graph](https://activity-graph.herokuapp.com/graph?username=SDINAHET&theme=react-dark&area=true&hide_border=true&custom_title=Contributions%20sur%206%20mois) -->
-
-
-
-[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%206%20Months&from=2024-07-01&to=2025-01-02)](https://github.com/ashutosh00710/github-readme-activity-graph)
-
-[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%2012%20Months&from=2024-01-01&to=2025-01-02)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 ## 🛠 Technologies Used
 
@@ -1305,3 +1294,22 @@ Here are some ideas to get you started:
 [![SDINAHET's github activity graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=xcode)](https://github.com/ashutosh00710/github-readme-activity-graph)
 
 <!-- [![trophy](https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=onedark&no-frame=true&column=5)](https://github.com/ryo-ma/github-profile-trophy) -->
+
+
+<!-- [![SDINAHET's github stats](https://github-readme-stats.vercel.app -->
+
+[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%201%20Months&from=2024-07-01)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+
+## Total Contributions and Streaks
+
+<!-- ![SDINAHET's Streak](https://streak-stats.demolab.com?user=SDINAHET&theme=react&card_width=1000)
+
+
+![Activity Graph](https://activity-graph.herokuapp.com/graph?username=SDINAHET&theme=react-dark&area=true&hide_border=true&custom_title=Contributions%20sur%206%20mois) -->
+
+
+
+[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%206%20Months&from=2024-07-01&to=2025-01-02)](https://github.com/ashutosh00710/github-readme-activity-graph)
+
+[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%2012%20Months&from=2024-01-01&to=2025-01-02)](https://github.com/ashutosh00710/github-readme-activity-graph)
