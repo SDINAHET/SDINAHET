@@ -1298,7 +1298,7 @@ Here are some ideas to get you started:
 
 <!-- [![SDINAHET's github stats](https://github-readme-stats.vercel.app -->
 
-[![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%201%20Months&from=2024-07-01)](https://github.com/ashutosh00710/github-readme-activity-graph)
+<!-- [![SDINAHET's Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=react-dark&bg_color=20232a&color=61dafb&line=ffffff&point=ff0000&area=true&hide_border=true&custom_title=Activity%20Graph%20-%201%20Months&from=2024-07-01)](https://github.com/ashutosh00710/github-readme-activity-graph) -->
 
 
 ## Total Contributions and Streaks
