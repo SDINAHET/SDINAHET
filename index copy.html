@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Stéphane Dinahet - Fullstack Developer</title>
     <style>
-        /* General Styles */
         body {
             font-family: Arial, sans-serif;
             margin: 0;
@@ -22,14 +21,12 @@
             border: 1px solid #ddd;
             box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
         }
-        /* Header Styles */
         header {
             display: flex;
             align-items: center;
             justify-content: space-between;
-            padding: 20px 20px;
-            background: #1e3a5f;
-            color: #fff;
+            padding: 10px 20px;
+            border-bottom: 2px solid #1e3a5f;
         }
         .profile-info {
             display: flex;
@@ -40,16 +37,16 @@
             width: 100px;
             height: 100px;
             margin-right: 15px;
-            border: 3px solid #fff;
         }
         .profile-info h1 {
             margin: 0;
-            font-size: 26px;
-            color: #fff;
+            font-size: 24px;
+            color: #1e3a5f;
         }
         .profile-info p {
             margin: 0;
             font-size: 14px;
+            color: #555;
         }
         .qrcodes {
             display: flex;
@@ -58,52 +55,42 @@
             gap: 10px;
         }
         .qrcodes img {
-            width: 90px;
-            height: 90px;
+            width: 100px;
+            height: 100px;
         }
         .qrcodes a {
             font-size: 14px;
-            color: #88c0d0;
+            color: #1e3a5f;
             text-decoration: none;
         }
         .qrcodes a:hover {
             text-decoration: underline;
         }
-        /* Section Styles */
         .section {
             margin: 20px 0;
         }
         .section h2 {
             color: #1e3a5f;
-            font-size: 22px;
-            border-bottom: 3px solid #1e3a5f;
+            font-size: 20px;
+            border-bottom: 2px solid #1e3a5f;
             margin-bottom: 10px;
             padding-bottom: 5px;
         }
-        /* Skills Grid */
         .skills-grid {
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+            grid-template-columns: repeat(auto-fit, minmax(80px, 1fr));
             gap: 10px;
             margin-top: 15px;
+            justify-content: center;
         }
         .skills-grid div {
             text-align: center;
-            background: #e9eef5;
-            padding: 10px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
         }
         .skills-grid img {
-            width: 40px;
-            height: 40px;
+            width: 30px;
+            height: 30px;
             margin-bottom: 5px;
         }
-        .skills-grid p {
-            font-size: 12px;
-            margin: 0;
-        }
-        /* Footer Styles */
         footer {
             text-align: center;
             margin-top: 20px;
@@ -116,23 +103,22 @@
 </head>
 <body>
     <div class="container">
-        <!-- Header -->
+        <!-- Condensed Header -->
         <header>
+            <!-- Profile Information -->
             <div class="profile-info">
                 <img src="T0423U1MW21-U0761LZ2DPD-f150ad4fc17a-192.png" alt="Stéphane Dinahet">
                 <div>
                     <h1>Stéphane Dinahet</h1>
-                    <p>Email: <a href="mailto:stephane.dinahet@gmail.com" style="color: #88c0d0;">stephane.dinahet@gmail.com</a></p>
+                    <p>Email: <a href="mailto:stephane.dinahet@gmail.com">stephane.dinahet@gmail.com</a></p>
                     <p>Phone: +33 6 74 44 79 45 | Rennes, France</p>
-                    <br>
-                    <br>
-                    <p><a href="https://sdinahet.github.io/SDINAHET/" style="color: #88c0d0;">https://sdinahet.github.io/SDINAHET/</a></p>
                 </div>
             </div>
+            <!-- QR Codes -->
             <div class="qrcodes">
                 <div>
                     <img src="qrcode_github.com.png" alt="GitHub QR Code">
-                    <a href="https://github.com/SDINAHET" target="_blank">GitHub_</a>
+                    <a href="https://github.com/SDINAHET" target="_blank">GitHub</a>
                 </div>
                 <div>
                     <img src="qrcode_www.linkedin.com.png" alt="LinkedIn QR Code">
@@ -150,15 +136,15 @@
         <!-- Professional Experience -->
         <div class="section">
             <h2>Professional Experience</h2>
-            <h3>Research & Development Lab Technician - Symrise</h3>
+            <h3>Opérateur Recherche & Développement - Symrise</h3>
             <p>Elven, France | Feb 2022 - Jun 2024</p>
             <ul>
                 <li>Designed and implemented analytical methods for research and development.</li>
                 <li>Automated laboratory processes using Excel macros and VBA scripts.</li>
                 <li>Managed logistics and equipment maintenance using SAP.</li>
             </ul>
-            <h3>Lab Technician - Entremont - Sodiaal</h3>
-            <p>Missiriac, France | Jun 2019 - Dec 2020 & Jul 2021 - Feb 2022</p>
+            <h3>Technicien de laboratoire - Entremont Alliance</h3>
+            <p>Missiriac, France | Jul 2021 - Feb 2022</p>
             <ul>
                 <li>Conducted microbiological and chemical analyses.</li>
                 <li>Improved workflows through automation and IT tools.</li>
@@ -173,10 +159,10 @@
             <ul>
                 <li>Completed projects: <strong>printf</strong>, <strong>simple shell</strong>, <strong>HBnB</strong>, and a portfolio site.</li>
             </ul>
-            <h3>Master's Degree in Biology - Agro - Health</h3>
-            <p>University of Rennes 1 | 2014</p>
-            <h3>Bachelor's Degree in Biochemistry and Molecular Biology</h3>
-            <p>University of Rennes 1 | 2012</p>
+            <h3>Master 2 Biologie - Agro - Santé</h3>
+            <p>Université de Rennes 1 | 2014</p>
+            <h3>Licence de Biochimie et Biologie Moléculaire</h3>
+            <p>Université de Rennes 1 | 2012</p>
         </div>
 
         <!-- Skills -->
@@ -195,6 +181,7 @@
                 <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sqlite/sqlite-original.svg" alt="SQLite"><p>SQLite</p></div>
                 <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg" alt="MongoDB"><p>MongoDB</p></div>
                 <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" alt="React"><p>React</p></div>
+                <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg" alt="Express.js"><p>Express.js</p></div>
                 <div><img src="https://upload.wikimedia.org/wikipedia/commons/b/ba/Pytest_logo.svg" alt="Pytest"><p>Pytest</p></div>
                 <div><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg" alt="VSCode"><p>VSCode</p></div>
             </div>
