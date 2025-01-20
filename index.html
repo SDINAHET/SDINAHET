@@ -81,7 +81,7 @@
             padding-bottom: 5px;
         }
         /* Skills Grid */
-        .skills-grid {
+        /*.skills-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
             gap: 10px;
@@ -98,9 +98,33 @@
             width: 40px;
             height: 40px;
             margin-bottom: 5px;
+        }*/
+
+        .skills-grid {
+            display: grid; /* Change la disposition en flexbox */
+            grid-template-columns: repeat(auto-fit, minmax(30px, 1fr));
+            flex-wrap: nowrap; /* Empêche le passage des éléments sur plusieurs lignes */
+            /*overflow-x: auto; /* Permet un défilement horizontal si nécessaire */
+            gap: 3px; /* Espacement entre les logos */
+            justify-content: center; /* Centrer les logos */
+        }
+
+        .skills-grid div {
+            text-align: center;
+            background: #e9eef5;
+            padding: 10px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            flex: 0 0 auto; /* Empêche l'étirement des éléments */
+        }
+
+        .skills-grid img {
+            width: 40px; /* Taille des logos */
+            height: 40px;
+            margin-bottom: 5px;
         }
         .skills-grid p {
-            font-size: 12px;
+            font-size: 8px;
             margin: 0;
         }
         /* Footer Styles */
