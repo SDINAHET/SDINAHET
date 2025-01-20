@@ -1265,9 +1265,21 @@ Here are some ideas to get you started:
 <!-- ## 📫 Connect with Me -->
 <!-- - Email: [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
 - LinkedIn: [linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/) -->
+<!-- ## 📫 Connect with Me
+- [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stephane.dinahet@gmail.com) [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)] (https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/)[linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/)
+- [![CV](https://img.shields.io/badge/-CV-blue?style=flat-square&logo=readme&logoColor=white)](https://sdinahet.github.io/SDINAHET/) [CV/stephane-dinahet](https://sdinahet.github.io/SDINAHET/) -->
+
 ## 📫 Connect with Me
-- ![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white) [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
-- ![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white) [linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/)
+
+- [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:stephane.dinahet@gmail.com) [stephane.dinahet@gmail.com](mailto:stephane.dinahet@gmail.com)
+- [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/) [linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/)
+- [![CV](https://img.shields.io/badge/-CV-blue?style=for-the-badge&logo=readme&logoColor=white)](https://sdinahet.github.io/SDINAHET/) [CV/stephane-dinahet](https://sdinahet.github.io/SDINAHET/)
+
+
+
+## Projects
+- [![HBnB](https://img.shields.io/badge/HBnB-Live-orange)](https://hbnb.alwaysdata.net/)
 
 
 ## La nuit de l'info (December 5, 2024 to December 6 2024):
