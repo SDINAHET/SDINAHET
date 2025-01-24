@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV - Stéphane Dinahet</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+            -webkit-print-color-adjust: exact;
+        }
+
+        .container {
+            width: 210mm;
+            height: 297mm;
+            max-width: 100%;
+            margin: 0 auto;
+            background: #fff;
+            padding: 20px 30px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            page-break-after: avoid;
+        }
+
+        .header {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 10px 0;
+            background-color: #003366;
+            color: white;
+        }
+
+        .header h1 {
+            font-size: 32px;
+            margin: 0;
+            padding: 10px 0 10px 20px;
+        }
+
+        .header .subtitle {
+            margin-right: 20px;
+            font-size: 18px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        .section {
+            margin-top: 20px;
+        }
+
+        .section h2 {
+            border-bottom: 2px solid #003366;
+            padding-bottom: 5px;
+            margin-bottom: 10px;
+            font-size: 18px;
+            color: #003366;
+        }
+
+        .content-columns {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 20px;
+        }
+
+        ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        ul li {
+            margin-bottom: 10px;
+            padding-left: 20px;
+            position: relative;
+        }
+
+        ul li:before {
+            content: '\2022';
+            position: absolute;
+            left: 0;
+            color: #003366;
+        }
+
+        .contact, .skills, .languages {
+            margin-top: 10px;
+        }
+
+        .contact p, .skills p {
+            margin: 5px 0;
+        }
+
+        a {
+            color: #003366;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .languages .progress {
+            height: 5px;
+            background-color: #ccc;
+            margin-top: 5px;
+            border-radius: 3px;
+        }
+
+        .languages .progress .level {
+            height: 100%;
+            background-color: #003366;
+            width: 50%;
+            border-radius: 3px;
+        }
+
+        .highlight {
+            color: #003366;
+            font-weight: bold;
+        }
+
+        /* Specific detailed CSS for precise alignment and styles */
+        .left-column {
+            padding-right: 20px;
+            border-right: 1px solid #ccc;
+        }
+
+        .right-column {
+            padding-left: 20px;
+        }
+
+        .section ul ul {
+            padding-left: 20px;
+        }
+
+        .section ul ul li:before {
+            content: '-';
+            color: #555;
+        }
+
+        .contact-icons {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .contact-icons img {
+            width: 20px;
+            height: 20px;
+        }
+
+        .header-logo {
+            margin-left: 20px;
+        }
+
+        .profile-image {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-bottom: 10px;
+        }
+
+        .contact-info {
+            margin-top: 10px;
+        }
+
+        .contact-info p {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>STÉPHANE DINAHET</h1>
+            <div class="subtitle">DÉVELOPPEUR FULLSTACK</div>
+        </div>
+
+        <div class="content-columns">
+            <div class="left-column">
+                <div class="section">
+                    <h2>PROFIL</h2>
+                    <p>Développeur informatique passionné, je me spécialise dans le développement Fullstack avec une maîtrise des langages Python, JavaScript, et C. Actuellement en formation à Holberton School Rennes, je suis motivé par les défis techniques et l'opportunité de contribuer à des projets innovants et à impact positif. Je recherche un stage ou une alternance pour finaliser ma formation.</p>
+                </div>
+
+                <div class="section">
+                    <h2>EXPÉRIENCE</h2>
+                    <ul>
+                        <li><strong>Technicien de laboratoire R&D</strong>, Symrise - Elven - Intérim (02/2022 - 06/2024)
+                            <ul>
+                                <li>Conduite d'analyses selon les processus qualité.</li>
+                                <li>Automatisation des tâches avec VBA.</li>
+                                <li>Gestion logistique avec SAP.</li>
+                            </ul>
+                        </li>
+                        <li><strong>Technicien de laboratoire</strong>, Entremont - Sodiaal - Missiriac - Intérim (06/2019 - 02/2022)
+                            <ul>
+                                <li>Réalisation d'analyses microbiologiques et chimiques.</li>
+                                <li>Rédaction et mise à jour de protocoles techniques.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section">
+                    <h2>FORMATION</h2>
+                    <ul>
+                        <li><strong>RNCP5 - Développeur web et web-mobile</strong>, Holberton School Rennes (06/2024 - 06/2025)
+                            <ul>
+                                <li>printf : Implémentation d'une fonction printf personnalisée en C.</li>
+                                <li>simple shell : Développement d'un interpréteur de commandes.</li>
+                                <li>HBnB : Plateforme web intégrant backend et frontend.</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="right-column">
+                <div class="section contact">
+                    <h2>COORDONNÉES</h2>
+                    <p>📍 Rennes, France</p>
+                    <p>📞 +33 6 74 44 79 45</p>
+                    <p>📧 <a href="mailto:stephane.dinahet@gmail.com">stephane.dinahet@gmail.com</a></p>
+                    <p>🔗 <a href="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/">LinkedIn</a></p>
+                    <p>💻 <a href="https://github.com/SDINAHET">GitHub</a></p>
+                </div>
+
+                <div class="section skills">
+                    <h2>COMPÉTENCES</h2>
+                    <p>C</p>
+                    <p>HTML5</p>
+                    <p>CSS3</p>
+                    <p>Python</p>
+                    <p>JavaScript</p>
+                    <p>Docker</p>
+                    <p>SQLite</p>
+                    <p>MongoDB</p>
+                </div>
+
+                <div class="section languages">
+                    <h2>LANGUES</h2>
+                    <p>Anglais</p>
+                    <div class="progress">
+                        <div class="level"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
