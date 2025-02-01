@@ -1278,7 +1278,10 @@ Here are some ideas to get you started:
 - [![LinkedIn](https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/) [linkedin/stephane-dinahet](https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/)
 - [![CV](https://img.shields.io/badge/-CV-blue?style=for-the-badge&logo=readme&logoColor=white)](https://sdinahet.github.io/SDINAHET/) [CV/stephane-dinahet](https://sdinahet.github.io/SDINAHET/)
 <!-- ![alt text](cv.png) -->
-<img src="cv.png" alt="alt text" width="100px">
+<a href="https://sdinahet.github.io/SDINAHET/" target="_blank">
+    <img src="cv.png" alt="alt text" width="150px">
+</a>
+
 
 
 
