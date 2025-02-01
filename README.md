@@ -1332,32 +1332,4 @@ Here are some ideas to get you started:
 
 
 
-<!-- https://www.sejda.com/ -->
-
-
-
-<!DOCTYPE html>
-<html lang="fr">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Diagramme Mermaid</title>
-    <script type="module">
-        import mermaid from 'https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs';
-        mermaid.initialize({ startOnLoad: true });
-    </script>
-</head>
-<body>
-
-    <h1>Mon Diagramme en Mermaid</h1>
-
-    <pre class="mermaid">
-    graph TD
-      title Processus de Test
-      A[Départ] --> B[Étape 1]
-      B --> C[Étape 2]
-      C --> D[Arrivée]
-    </pre>
-
-</body>
-</html>
+https://www.sejda.com/
