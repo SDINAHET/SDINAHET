@@ -3,18 +3,20 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Loto Tracker API - Next Gen Lottery Analytics</title>
+    <title>Loto Tracker API - An application to analyse Lottery</title>
     <link rel="stylesheet" href="styles.css" />
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="portfolio/loto_tracker.png">
     <style>
-      body {
-        font-family: "Arial", sans-serif;
-        margin: 0;
-        padding: 0;
-        background: linear-gradient(180deg, #0a0a23, #001f3f);
-        color: white;
-        text-align: center;
-      }
       header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color: #fff; /* Ajuste la couleur de fond */
+        z-index: 1000; /* S'assure qu'il reste au-dessus des autres éléments */
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Optionnel : ajoute une ombre */
+        padding: 10px 20px;
         background: linear-gradient(90deg, #003366, #00509e);
         padding: 1rem 0;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
@@ -33,6 +35,15 @@
         font-size: 1.2rem;
         text-decoration: none;
         font-weight: bold;
+      }
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, #0a0a23, #001f3f);
+        color: white;
+        text-align: center;
+        padding-top: 60px; /* Évite que le contenu ne soit caché sous le header */
       }
       .hero {
         background: url('portfolio/tickets.png') center/cover no-repeat;
@@ -79,7 +90,7 @@
         filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
       }
       .gallery img {
-        width: 300px;
+        width: 1000px;
         border-radius: 10px;
         margin: 15px;
         box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
@@ -94,7 +105,42 @@
         background: #002a4d;
         padding: 30px;
         margin-top: 60px;
+        text-align: center;
+        color: white;
       }
+      /* Style des liens par défaut */
+      footer a {
+        color: #ffcc00; /* Jaune */
+        text-decoration: none;
+        font-weight: bold;
+        transition: color 0.3s ease-in-out; /* Ajoute une transition fluide */
+      }
+
+      /* Premier effet : Orange clair au survol */
+      footer a:hover {
+        color: #ff8800; /* Orange clair */
+      }
+
+      /* Deuxième effet : Orange foncé après un court délai */
+      footer a:hover {
+        transition: color 0.3s ease-in-out;
+        color: #cc5500; /* Orange foncé */
+      }
+      footer a:hover {
+        animation: colorChange 1s forwards;
+        animation: colorChange 2s infinite alternate;
+        text-shadow: 0px 0px 10px rgba(255, 255, 255, 0.8); /* Effet lumineux */
+      }
+
+      @keyframes colorChange {
+        0%   { color: #ffcc00; } /* Jaune */
+        20%  { color: #ff6600; } /* Orange vif */
+        40%  { color: #ffcc00; } /* Rouge vif */
+        60%  { color: #ff0000; } /* Rose néon */
+        80%  { color: #ff6600; } /* Bleu électrique */
+        100% { color: #ff0000; } /* Orange foncé */
+    }
+
       .cta {
         display: inline-block;
         background: #ffcc00;
@@ -107,24 +153,121 @@
         margin-top: 30px;
         box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
       }
+      /* Style du logo */
+      .logo {
+        width: 110px; /* Ajuste la taille selon tes besoins */
+        position: absolute;
+        left: 0px; /* Décale le logo vers la droite */
+        bottom: -45px; /* Fait dépasser le logo en bas du header */
+      }
+
+      /*about*/
+      /* Style de la section "About" */
+      #about {
+        text-align: center;
+        padding: 20px;
+        background-color: #002a4d;
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Titre */
+      #about h2 {
+        font-size: 28px;
+        font-weight: bold;
+        margin-bottom: 15px;
+      }
+
+      /* Texte principal */
+      #about p {
+        font-size: 18px;
+        line-height: 1.6;
+        max-width: 800px;
+        margin: 0 auto;
+      }
+
+      /* Liste des fonctionnalités */
+      .about-list {
+        list-style: none;
+        padding: 0;
+        margin-top: 15px;
+      }
+
+      .about-list li {
+        font-size: 18px;
+        margin: 8px 0;
+        padding: 10px;
+        background: rgba(255, 255, 255, 0.1);
+        border-radius: 5px;
+        display: inline-block;
+        width: 90%;
+        max-width: 600px;
+        text-align: left;
+      }
+
+      /*TABLEAU*/
+      /* Style général du tableau */
+      .features-table {
+        width: 100%;
+        border-collapse: collapse; /* Élimine les lignes blanches */
+        margin-top: 20px;
+        text-align: left;
+        font-family: Arial, sans-serif;
+      }
+
+      /* En-têtes du tableau */
+      .features-table th {
+        background-color: #002a4d;
+        color: white;
+        padding: 12px;
+        text-align: center;
+        border: 1px solid #ffffff; /* Ajoute une bordure blanche pour mieux séparer */
+      }
+
+      /* Style des cellules */
+      .features-table td {
+        border: 1px solid #ffffff; /* Élimine les lignes blanches en s'assurant d'une couleur de séparation */
+        padding: 10px;
+      }
+
+      /* Alternance des couleurs des lignes */
+      .features-table tbody tr:nth-child(odd) {
+        background-color: #1a1a2e; /* Bleu foncé */
+        color: white;
+      }
+
+      .features-table tbody tr:nth-child(even) {
+        background-color: #0f3460; /* Bleu plus foncé */
+        color: white;
+      }
+
+      /* Effet au survol */
+      .features-table tbody tr:hover {
+        background-color: #ffdd99; /* Jaune clair pour l'effet hover */
+        color: black;
+        transition: background-color 0.3s ease-in-out;
+      }
+
     </style>
   </head>
   <body>
     <header>
       <nav>
+        <img src="portfolio/loto_tracker.png" alt="Logo Loto" class="logo">
         <ul>
           <li><a href="#features">Features</a></li>
           <li><a href="#about">About</a></li>
           <li><a href="#demo">Demo</a></li>
-          <li><a href="https://github.com/SDINAHET/Loto_API" target="_blank">GitHub</a></li>
+          <li><a href="https://github.com/SDINAHET/Loto_API" target="https://github.com/SDINAHET/Loto_API">GitHub</a></li>
         </ul>
       </nav>
     </header>
 
     <section class="hero">
       <h1>Loto Tracker API</h1>
-      <p>Next-Gen Lottery Tracking & Analytics - Secure. Smart. Automated.</p>
-      <a href="https://github.com/SDINAHET/Loto_API" class="cta">Get Started</a>
+      <p>An application to analyse French Lottery</p>
+      <a href="https://github.com/SDINAHET/Loto_API" class="cta">Get Started now with your ticket! Your are winner?</a>
     </section>
 
     <section id="features">
@@ -150,15 +293,120 @@
 
     <section id="about">
       <h2>About</h2>
-      <p>The Loto Tracker API is a portfolio project for Holberton School Rennes, aimed at automating Loto result tracking and ticket analysis.</p>
+      <!-- <p>Loto Tracker API - Portfolio 2025 Holberton School RENNES is an advanced lottery tracking system that allows users to monitor Loto results, manage accounts, and automatically calculate winnings by comparing submitted tickets with official FDJ results.</p> -->
+      <p>
+        <strong>Loto Tracker API - Portfolio 2025 Holberton School RENNES</strong> is a powerful and intuitive lottery tracking system designed to help users:
+      </p>
+
+      <ul class="about-list">
+          <li>📊 <strong>Track Loto results</strong> in real time.</li>
+          <li>👤 <strong>Manage accounts</strong> with secure authentication.</li>
+          <li>🎫 <strong>Submit and compare tickets</strong> against official lottery results.</li>
+          <li>💰 <strong>Automatically calculate winnings</strong> for optimized tracking.</li>
+      </ul>
+
+      <p>
+          This system ensures <em>data security, accuracy, and seamless user experience</em> through automated updates and interactive visualizations.
+      </p>
+      <br>
+      <h3>Key Features:</h3>
+        <!-- <p>🔑 Secure Authentication: JWT-based protection for sensitive endpoints.</p>
+        <p>👤 User Management: Secure signup, login, logout, and role-based access control (Admin/User).</p>
+        <p>🎫 Ticket Submission & Management: Full CRUD operations with secure storage.</p>
+        <p>💰 Automatic Winnings Calculation: Compares submitted numbers with official FDJ results.
+        <p>📅 User Ticket History: View all submitted tickets and winnings details.</p>
+        <p>📅 Loto Results History (since 2019): Search past draws by date range, with sorted numbers.</p>
+        <p>📊 Results Visualization: Interactive charts for trend analysis.</p>
+        <p>📅 Automated Results Updates: Retrieves FDJ results every day for real-time synchronization.</p>
+        <p>🔒 Advanced Security: Role-based access control via Spring Security & JWT.</p>
+
+      <h3>Future Enhancements:</h3>
+        <p>🚀 Deployment & Hosting (🚧 In Progress)</p>
+        <p>🔔 Push notifications for results and winnings(🚧 In Progress)</p> -->
+        <table class="features-table">
+          <thead>
+              <tr>
+                  <th>Features</th>
+                  <th>Description</th>
+              </tr>
+          </thead>
+          <tbody>
+              <tr>
+                  <td>🔑 Secure Authentication</td>
+                  <td>JWT-based protection for sensitive endpoints with cookies.</td>
+              </tr>
+              <tr>
+                <td>🔒 Advanced Security</td>
+                <td>Role-based access control via Spring Security & JWT.</td>
+            </tr>
+              <tr>
+                  <td>👤 User Management</td>
+                  <td>Secure signup, login, logout, and role-based access control (Admin/User).</td>
+              </tr>
+              <tr>
+                  <td>🎫 Ticket Submission & Management</td>
+                  <td>Full CRUD operations with secure storage.</td>
+              </tr>
+              <tr>
+                  <td>💰 Automatic Winnings Calculation</td>
+                  <td>Compares submitted numbers with official FDJ results.</td>
+              </tr>
+              <tr>
+                  <td>📅 User Ticket History</td>
+                  <td>View all submitted tickets and winnings details.</td>
+              </tr>
+              <tr>
+                  <td>📅 Loto Results History</td>
+                  <td>Search past draws since 2019 by date range, with sorted numbers.</td>
+              </tr>
+              <tr>
+                  <td>📊 Results Visualization</td>
+                  <td>Interactive charts for trend analysis.</td>
+              </tr>
+              <tr>
+                  <td>📅 Automated Results Updates</td>
+                  <td>Retrieves FDJ results every day for real-time synchronization.</td>
+              </tr>
+
+          </tbody>
+      </table>
+      <br>
+      <h3>Future Enhancements:</h3>
+      <table class="features-table">
+          <!-- <thead>
+              <tr>
+                  <th>Feature</th>
+                  <th>Status</th>
+              </tr>
+          </thead> -->
+          <tbody>
+              <tr>
+                  <td>🚀 Deployment & Hosting 🚧 In Progress</td>
+              </tr>
+              <tr>
+                  <td>🔔 Push notifications for results and winnings 🚧 In Progress</td>
+              </tr>
+          </tbody>
+      </table>
+
+
     </section>
 
     <section id="demo">
       <h2>Demo</h2>
       <div class="gallery">
-        <img src="portfolio/bdd_tickets.png" alt="Tickets Table" />
+        <h3>Explore the project through screenshots:</h3>
+        <h3>Database Schema</h3>
+        <h4>SQLite Database (Users, Tickets, Ticket Gains)</h4>
         <img src="portfolio/bdd_users.png" alt="Users Table" />
+        <img src="portfolio/bdd_tickets.png" alt="Tickets Table" />
         <img src="portfolio/bdd_tickets_gains.png" alt="Ticket Gains" />
+        <h4>MongoDB Database (historique)</h4>
+        <img src="portfolio/bdd_mongodb_historique.png" alt="MongoDB Historique" />
+        <h4>Loto Tracker Website</h4>
+        <img src="portfolio/index_connexion.png" alt="Connexion User" />
+        <img src="portfolio/tickets.png" alt="Tickets User" />
+        <img src="portfolio/statistiques.png" alt="Statistiques User" />
       </div>
       <video controls>
         <source src="portfolio/demo.mp4" type="video/mp4" />
@@ -168,9 +416,9 @@
     <footer>
       <p>&copy; 2025 Loto Tracker API. All rights reserved.</p>
       <div>
-        <a href="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/" target="_blank">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/" target="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/">LinkedIn</a>
         |
-        <a href="https://github.com/SDINAHET/Loto_API" target="_blank">GitHub</a>
+        <a href="https://github.com/SDINAHET/Loto_API" target="https://github.com/SDINAHET/Loto_API">GitHub</a>
       </div>
     </footer>
   </body>
