@@ -8,6 +8,10 @@
     <!-- Favicon -->
     <link rel="icon" type="image/png" href="portfolio/loto_tracker.png">
     <style>
+      /* Ajoute un espace en haut des sections pour éviter que le header fixe ne les masque */
+      section {
+        scroll-margin-top: 80px; /* Ajuste selon la hauteur de ton header */
+      }
       header {
         position: fixed;
         top: 0;
@@ -249,6 +253,117 @@
         transition: background-color 0.3s ease-in-out;
       }
 
+      /*demo*/
+      /* Style général de la section */
+      #demo {
+        text-align: center;
+        padding: 20px;
+        background-color: #002a4d;
+        color: white;
+        border-radius: 8px;
+        box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+      }
+
+      /* Conteneur des images */
+      .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        margin-top: 10px;
+      }
+
+      /* Wrapper pour positionner le bouton sur l'image */
+      .image-wrapper {
+        position: relative;
+        display: inline-block;
+      }
+
+      /* Style des images */
+      .zoomable {
+        width: 300px;
+        height: auto;
+        border-radius: 10px;
+        transition: filter 0.3s ease-in-out;
+      }
+
+      /* Effet de flou léger au survol */
+      .image-wrapper:hover .zoomable {
+        filter: blur(2px);
+      }
+
+      /* Bouton "Zoom" positionné sur l'image */
+      .zoom-btn {
+        position: absolute;
+        bottom: 10px;
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 8px 12px;
+        font-size: 16px;
+        background-color: rgba(255, 165, 0, 0.8); /* Orange semi-transparent */
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: background 0.3s, transform 0.2s;
+        opacity: 0;
+      }
+
+      /* Afficher le bouton au survol */
+      .image-wrapper:hover .zoom-btn {
+        opacity: 1;
+        transform: translateX(-50%) scale(1.1);
+      }
+
+      /* Modale en plein écran */
+      .modal {
+        display: none;
+        position: fixed;
+        z-index: 1000;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0, 0, 0, 0.9);
+        text-align: center;
+      }
+
+      /* Image agrandie en plein écran */
+      .modal-content {
+        max-width: 100%;
+        max-height: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+
+      /* Bouton pour fermer */
+      .close {
+        position: absolute;
+        top: 20px;
+        right: 30px;
+        font-size: 40px;
+        color: white;
+        font-weight: bold;
+        cursor: pointer;
+        transition: 0.3s;
+      }
+
+      .close:hover {
+        color: red;
+      }
+
+
+      /* Style de la vidéo */
+      .demo-video {
+        width: 80%;
+        max-width: 800px;
+        margin-top: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      }
+
     </style>
   </head>
   <body>
@@ -398,7 +513,7 @@
         <h3>Explore the project through screenshots:</h3>
         <h3>Database Schema</h3>
         <h4>SQLite Database (Users, Tickets, Ticket Gains)</h4>
-        <img src="portfolio/bdd_users.png" alt="Users Table" />
+        <!-- <img src="portfolio/bdd_users.png" alt="Users Table" />
         <img src="portfolio/bdd_tickets.png" alt="Tickets Table" />
         <img src="portfolio/bdd_tickets_gains.png" alt="Ticket Gains" />
         <h4>MongoDB Database (historique)</h4>
@@ -406,12 +521,57 @@
         <h4>Loto Tracker Website</h4>
         <img src="portfolio/index_connexion.png" alt="Connexion User" />
         <img src="portfolio/tickets.png" alt="Tickets User" />
-        <img src="portfolio/statistiques.png" alt="Statistiques User" />
+        <img src="portfolio/statistiques.png" alt="Statistiques User" /> -->
+        <div class="image-container">
+          <div class="image-wrapper">
+              <img src="portfolio/bdd_users.png" alt="Users Table" class="zoomable">
+              <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+          </div>
+          <div class="image-wrapper">
+              <img src="portfolio/bdd_tickets.png" alt="Tickets Table" class="zoomable">
+              <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+          </div>
+          <div class="image-wrapper">
+              <img src="portfolio/bdd_tickets_gains.png" alt="Ticket Gains" class="zoomable">
+              <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+          </div>
+      </div>
+
+      <h4>MongoDB Database (historique)</h4>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="portfolio/bdd_mongodb_historique.png" alt="MongoDB Historique" class="zoomable">
+                <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+            </div>
+        </div>
+
+        <h4>Loto Tracker Website</h4>
+        <div class="image-container">
+            <div class="image-wrapper">
+                <img src="portfolio/index_connexion.png" alt="Connexion User" class="zoomable">
+                <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+            </div>
+            <div class="image-wrapper">
+                <img src="portfolio/tickets.png" alt="Tickets User" class="zoomable">
+                <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+            </div>
+            <div class="image-wrapper">
+                <img src="portfolio/statistiques.png" alt="Statistiques User" class="zoomable">
+                <button class="zoom-btn" onclick="zoomImage(this)">🔍 Zoom</button>
+            </div>
+        </div>
       </div>
       <video controls>
         <source src="portfolio/demo.mp4" type="video/mp4" />
       </video>
     </section>
+
+    <!-- Modale de zoom en plein écran -->
+    <div id="zoomModal" class="modal">
+      <span class="close" onclick="closeModal()">&times;</span>
+      <img class="modal-content" id="zoomedImage">
+    </div>
+
 
     <footer>
       <p>&copy; 2025 Loto Tracker API. All rights reserved.</p>
@@ -421,5 +581,30 @@
         <a href="https://github.com/SDINAHET/Loto_API" target="https://github.com/SDINAHET/Loto_API">GitHub</a>
       </div>
     </footer>
+    <script>
+        function zoomImage(button) {
+            var modal = document.getElementById("zoomModal");
+            var modalImg = document.getElementById("zoomedImage");
+            var imgSrc = button.previousElementSibling.src;
+
+            modal.style.display = "block";
+            modalImg.src = imgSrc;
+        }
+
+        function closeModal() {
+            document.getElementById("zoomModal").style.display = "none";
+        }
+
+        // Fermer la modale en cliquant à l'extérieur de l'image
+        window.onclick = function(event) {
+            var modal = document.getElementById("zoomModal");
+            if (event.target === modal) {
+                modal.style.display = "none";
+            }
+        };
+    </script>
+
+
+
   </body>
 </html>
