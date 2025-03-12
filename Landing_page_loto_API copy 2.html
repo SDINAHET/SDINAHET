@@ -10,7 +10,7 @@
         font-family: "Arial", sans-serif;
         margin: 0;
         padding: 0;
-        background: linear-gradient(180deg, #0a0a23, #001f3f);
+        background-color: #0a0a23;
         color: white;
         text-align: center;
       }
@@ -35,77 +35,67 @@
         font-weight: bold;
       }
       .hero {
-        background: url('portfolio/tickets.png') center/cover no-repeat;
-        padding: 200px 20px;
-        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        background: url('https://github.com/SDINAHET/SDINAHET/blob/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/loto_tracker.png?raw=true') center/cover no-repeat;
+        padding: 100px 20px;
       }
       .hero h1 {
-        font-size: 4rem;
+        font-size: 3rem;
         font-weight: bold;
-        background: rgba(0, 0, 0, 0.7);
+        background: rgba(0, 0, 0, 0.5);
         display: inline-block;
-        padding: 20px 30px;
-        border-radius: 12px;
+        padding: 10px 20px;
+        border-radius: 8px;
       }
       .hero p {
-        font-size: 2rem;
-        max-width: 750px;
+        font-size: 1.5rem;
+        max-width: 600px;
         margin: 20px auto;
-        background: rgba(0, 0, 0, 0.6);
-        padding: 15px;
-        border-radius: 8px;
+        background: rgba(255, 255, 255, 0.1);
+        padding: 10px;
+        border-radius: 5px;
       }
       .feature-container {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 40px;
-        margin: 60px 0;
+        gap: 20px;
+        margin: 40px 0;
       }
       .feature {
-        width: 350px;
-        background: #004080;
-        padding: 30px;
-        border-radius: 12px;
+        width: 200px;
+        background: #001f3f;
+        padding: 15px;
+        border-radius: 8px;
         text-align: center;
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
-        transition: transform 0.3s ease;
-      }
-      .feature:hover {
-        transform: scale(1.05);
+        box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
       }
       .feature img {
-        width: 120px;
-        filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+        width: 50px;
       }
       .gallery img {
-        width: 300px;
-        border-radius: 10px;
-        margin: 15px;
-        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+        width: 150px;
+        border-radius: 5px;
+        margin: 5px;
       }
       video {
         width: 80%;
-        margin-top: 40px;
-        border-radius: 10px;
-        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        margin-top: 20px;
       }
       footer {
-        background: #002a4d;
-        padding: 30px;
-        margin-top: 60px;
+        background: #003366;
+        padding: 20px;
+        margin-top: 40px;
       }
       .cta {
         display: inline-block;
         background: #ffcc00;
         color: black;
-        padding: 20px 40px;
+        padding: 15px 30px;
         text-decoration: none;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
         font-weight: bold;
-        border-radius: 8px;
-        margin-top: 30px;
-        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+        border-radius: 5px;
+        margin-top: 20px;
       }
     </style>
   </head>
@@ -128,40 +118,34 @@
     </section>
 
     <section id="features">
-        <h2>Key Features</h2>
-        <div class="feature-container">
-          <div class="feature">
-            <img src="portfolio/security.jpg" alt="Security" />
-            <h3>Secure Authentication</h3>
-            <p>Protect user data with JWT-based authentication.</p>
-          </div>
-          <div class="feature">
-            <img src="portfolio/db.jpg" alt="Database" />
-            <h3>Hybrid Database</h3>
-            <p>Supports SQLite and MongoDB for optimal performance.</p>
-          </div>
-          <div class="feature">
-            <img src="portfolio/analyse.jpg" alt="Analysis" />
-            <h3>Automated Results</h3>
-            <p>Compare tickets instantly with official Loto draws.</p>
-          </div>
+      <h2>Key Features</h2>
+      <div class="feature-container">
+        <div class="feature">
+          <img src="https://github.com/SDINAHET/SDINAHET/blob/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/security.png?raw=true" alt="Security" />
+          <h3>Secure Authentication</h3>
+          <p>Protect user data with JWT-based authentication.</p>
         </div>
-      </section>
-
-    <section id="about">
-      <h2>About</h2>
-      <p>The Loto Tracker API is a portfolio project for Holberton School Rennes, aimed at automating Loto result tracking and ticket analysis.</p>
+        <div class="feature">
+          <img src="https://github.com/SDINAHET/SDINAHET/blob/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/database.png?raw=true" alt="Database" />
+          <h3>Hybrid Database</h3>
+          <p>Supports SQLite and MongoDB for optimal performance.</p>
+        </div>
+        <div class="feature">
+          <img src="https://github.com/SDINAHET/SDINAHET/blob/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/analysis.png?raw=true" alt="Analysis" />
+          <h3>Automated Results</h3>
+          <p>Compare tickets instantly with official Loto draws.</p>
+        </div>
+      </div>
     </section>
 
     <section id="demo">
-      <h2>Demo</h2>
+      <h2>See It in Action</h2>
       <div class="gallery">
-        <img src="portfolio/bdd_tickets.png" alt="Tickets Table" />
-        <img src="portfolio/bdd_users.png" alt="Users Table" />
-        <img src="portfolio/bdd_tickets_gains.png" alt="Ticket Gains" />
+        <img src="https://github.com/SDINAHET/SDINAHET/blob/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/bdd_mongodb_historique.png?raw=true" alt="MongoDB Data" />
+        <img src="https://github.com/SDINAHET/SDINAHET/blob/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/bdd_tickets.png?raw=true" alt="Tickets" />
       </div>
       <video controls>
-        <source src="portfolio/demo.mp4" type="video/mp4" />
+        <source src="https://github.com/SDINAHET/SDINAHET/raw/79760a33f7c126d30a97e01ecded74ff95967dfb/portfolio/demo.mp4" type="video/mp4">
       </video>
     </section>
 
