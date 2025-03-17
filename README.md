@@ -25,8 +25,10 @@ Here are some ideas to get you started:
 
 <!-- -site: https://hbnb.alwaysdata.net/ github: https://github.com/SDINAHET/HBnB -->
 
-- **Portfolio en JAVA et REACT JS**: https://github.com/SDINAHET/Loto_API
+- **Portfolio en JAVA Spring-Boot, nodejs, HTML, CSS et JavaScript**: https://github.com/SDINAHET/Loto_API
+- Landing page: https://sdinahet.github.io/SDINAHET/Landing_page_loto_API.html
 
+<!--  -->
 - **Learning New Languages**: Constantly improving my skills in JavaScript, Python, and more.
 
 
