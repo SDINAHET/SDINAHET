@@ -92,11 +92,16 @@
     border: none;
     border-radius: 25px;
     padding: 12px 24px;
-    font-size: 12px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14px;
     font-weight: 700;
     text-transform: uppercase;
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
     margin-top: 20px;
+    /* width: 162px; */
+    height: 44px;
+    margin: 20px auto 0 auto; /* Centrage horizontal */
+    display: block; /* Nécessaire pour margin auto */
   }
   /* box-shadow: 0px 2px 20px rgba(0, 0, 0, 0.5);
   } */
@@ -105,6 +110,8 @@
   .pros-section {
     margin-top: 100px;
     text-align: center;
+    width: 1009px;
+    height: 40px;
   }
   .pros-section h2 {
     font-size: 32px;
@@ -121,6 +128,8 @@
   
   
   .pros-container {
+    width: 1009px;
+    height: 237px;
     display: flex;
     justify-content: center;
     gap: 60px;
