@@ -1290,7 +1290,8 @@ Here are some ideas to get you started:
 <!-- <a href="https://sdinahet.github.io/SDINAHET/MyPage/index.html" target="_blank">
     <img src="cv.png" alt="alt text" width="150px">
 </a> -->
-
+<br>
+<br>
 <a href="https://sdinahet.github.io/SDINAHET/MyPage/index.html" target="_blank" rel="noopener">
   <img
     alt="MyPage — status"
