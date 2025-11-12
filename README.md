@@ -1287,6 +1287,12 @@ Here are some ideas to get you started:
 </a>
 
 
+<a href="https://sdinahet.github.io/SDINAHET/MyPage/index.html" target="_blank">
+    <!-- <img src="cv.png" alt="alt text" width="150px"> -->
+</a>
+
+
+
 
 
 ## Projects
