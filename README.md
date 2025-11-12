@@ -1287,9 +1287,16 @@ Here are some ideas to get you started:
 </a>
 
 
-<a href="https://sdinahet.github.io/SDINAHET/MyPage/index.html" target="_blank">
-    <!-- <img src="cv.png" alt="alt text" width="150px"> -->
+<!-- <a href="https://sdinahet.github.io/SDINAHET/MyPage/index.html" target="_blank">
+    <img src="cv.png" alt="alt text" width="150px">
+</a> -->
+
+<a href="https://sdinahet.github.io/SDINAHET/MyPage/index.html" target="_blank" rel="noopener">
+  <img
+    alt="MyPage — status"
+    src="https://img.shields.io/website?url=https%3A%2F%2Fsdinahet.github.io%2FSDINAHET%2FMyPage%2Findex.html&label=MyPage&up_message=online&down_message=offline&style=for-the-badge">
 </a>
+
 
 
 
