@@ -8,34 +8,6 @@
 
 </head>
 
-<script src="static/js/data.js"></script>
-
-<script>
-window.addEventListener("DOMContentLoaded", () => {
-  const form = document.getElementById("login-form");
-  const msg = document.createElement("p");
-  form.appendChild(msg);
-
-  form.addEventListener("submit", (e) => {
-    e.preventDefault();
-    const email = document.getElementById("email").value;
-    const pwd = document.getElementById("password").value;
-
-    const res = login(email, pwd);
-    if (!res.success) {
-      msg.textContent = res.message;
-      msg.style.color = "red";
-      return;
-    }
-    msg.textContent = "Logged in!";
-    msg.style.color = "green";
-
-    // redirection vers home
-    window.location.href = "index.html";
-  });
-});
-</script>
-
 <body>
     <header>
         <img src="static/images/logo.png" class="logo" alt="App Logo">
@@ -83,6 +55,33 @@ window.addEventListener("DOMContentLoaded", () => {
             window.location.href = "login.html";
         });
     }
+});
+</script>
+<script src="static/js/data.js"></script>
+
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  const form = document.getElementById("login-form");
+  const msg = document.createElement("p");
+  form.appendChild(msg);
+
+  form.addEventListener("submit", (e) => {
+    e.preventDefault();
+    const email = document.getElementById("email").value;
+    const pwd = document.getElementById("password").value;
+
+    const res = login(email, pwd);
+    if (!res.success) {
+      msg.textContent = res.message;
+      msg.style.color = "red";
+      return;
+    }
+    msg.textContent = "Logged in!";
+    msg.style.color = "green";
+
+    // redirection vers home
+    window.location.href = "index.html";
+  });
 });
 </script>
 
