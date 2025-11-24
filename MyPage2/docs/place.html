@@ -31,15 +31,15 @@ document.getElementById("place-content").innerHTML = `
 
 <body>
     <header>
-    <img src="static/images/logo.png" class="logo" alt="App Logo">
-    <nav>
-        <div class="nav-links">
-            <button id="home-btn">Home</button>
-            <button id="login-btn">Login</button>
-            <button id="logout-btn" style="display:none;">Logout</button>
-        </div>
-    </nav>
-</header>
+        <img src="static/images/logo.png" class="logo" alt="App Logo">
+        <nav>
+            <div class="nav-links">
+                <button id="home-btn">Home</button>
+                <button id="login-btn">Login</button>
+                <button id="logout-btn" style="display:none;">Logout</button>
+            </div>
+        </nav>
+    </header>
 
     <div class="content">
 
@@ -104,6 +104,25 @@ document.getElementById("place-content").innerHTML = `
 </main>
 
 <script src="static/js/scripts.js"></script>
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+    const homeBtn = document.getElementById("home-btn");
+    const loginBtn = document.getElementById("login-btn");
+
+    if (homeBtn) {
+        homeBtn.addEventListener("click", () => {
+            window.location.href = "index.html";
+        });
+    }
+
+    if (loginBtn) {
+        loginBtn.addEventListener("click", () => {
+            window.location.href = "login.html";
+        });
+    }
+});
+</script>
+
 <script src="static/js/data.js"></script>
 <script>
 window.addEventListener("DOMContentLoaded", () => {
