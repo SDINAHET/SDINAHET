@@ -6,6 +6,16 @@ const users = {
         password: "user1234",
         name: "Test User",
         id: "u1"
+    },
+    "test2@hbnb.com": {
+        password: "user1234",
+        name: "Host Plouha",
+        id: "u2"
+    },
+    "test3@hbnb.com": {
+        password: "user1234",
+        name: "Host Montfort",
+        id: "u3"
     }
 };
 
@@ -30,7 +40,7 @@ const places = [
         id: "p2",
         name: "Villa Côtes-d'Armor",
         city: "Plouha",
-        host: "test@hbnb.com",
+        host: "test2@hbnb.com",
         price: 140,
         guests: 6,
         bedrooms: 3,
@@ -42,7 +52,7 @@ const places = [
         id: "p3",
         name: "Studio Montfort-sur-Meu",
         city: "Montfort",
-        host: "test@hbnb.com",
+        host: "test3@hbnb.com",
         price: 59,
         guests: 1,
         bedrooms: 1,
@@ -52,11 +62,11 @@ const places = [
     }
 ];
 
-
 /* -------------------------
-   REVIEWS (liées aux places)
+   REVIEWS (3 par place)
 ------------------------- */
 const reviews = [
+    // p1 - Rennes
     {
         place_id: "p1",
         user_id: "u1",
@@ -66,13 +76,53 @@ const reviews = [
     {
         place_id: "p1",
         user_id: "u1",
-        comment: "Wifi un peu lent mais hôte sympa.",
+        comment: "Emplacement idéal, proche du métro et du centre.",
         rating: 4
+    },
+    {
+        place_id: "p1",
+        user_id: "u2",
+        comment: "Hôte réactif, logement conforme aux photos.",
+        rating: 5
+    },
+
+    // p2 - Plouha
+    {
+        place_id: "p2",
+        user_id: "u2",
+        comment: "Vue mer incroyable, on a adoré la terrasse.",
+        rating: 5
     },
     {
         place_id: "p2",
         user_id: "u1",
-        comment: "Très bon rapport qualité/prix.",
+        comment: "Maison spacieuse, parfaite pour un séjour en famille.",
+        rating: 4
+    },
+    {
+        place_id: "p2",
+        user_id: "u3",
+        comment: "Quartier très calme, plage accessible à pied.",
+        rating: 4
+    },
+
+    // p3 - Montfort
+    {
+        place_id: "p3",
+        user_id: "u3",
+        comment: "Studio très pratique pour un court séjour.",
+        rating: 4
+    },
+    {
+        place_id: "p3",
+        user_id: "u1",
+        comment: "Bon rapport qualité/prix, hôte sympathique.",
+        rating: 5
+    },
+    {
+        place_id: "p3",
+        user_id: "u2",
+        comment: "Parfait pour une personne seule, quartier tranquille.",
         rating: 4
     }
 ];

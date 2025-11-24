@@ -124,7 +124,7 @@ window.addEventListener("DOMContentLoaded", () => {
 </script>
 
 <!-- <script src="static/js/data.js"></script> -->
-<script src="static/js/data.js"></script>
+<!-- <script src="static/js/data.js"></script>
 <script>
 window.addEventListener("DOMContentLoaded", () => {
   const urlParams = new URLSearchParams(window.location.search);
@@ -148,7 +148,48 @@ window.addEventListener("DOMContentLoaded", () => {
       .join("");
   }
 });
+</script> -->
+
+<script src="static/js/data.js"></script>
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const id = urlParams.get("id");
+
+  const place = places.find((p) => p.id === id);
+  if (!place) return;
+
+  // Titre, prix, description, ville
+  document.getElementById("place-title").textContent = place.name;
+  document.getElementById("place-price").textContent = place.price + " €/nuit";
+  document.getElementById("place-description").textContent = place.description;
+  document.getElementById("place-location").textContent = place.city;
+
+  // 🔹 Host (utilise l'email pour retrouver l'utilisateur)
+  const hostSpan = document.getElementById("place-host");
+  const hostUser = users[place.host];   // place.host = "test@hbnb.com"
+  if (hostUser) {
+    hostSpan.textContent = hostUser.name + " (" + place.host + ")";
+  } else {
+    hostSpan.textContent = place.host;  // affiche au moins l'email
+  }
+
+  // 🔹 Reviews
+  const reviewsContainer = document.getElementById("reviews-list");
+  const placeReviews = (window.reviews || []).filter(r => r.place_id === id);
+
+  if (!placeReviews.length) {
+    reviewsContainer.innerHTML = "<p>No reviews yet.</p>";
+  } else {
+    reviewsContainer.innerHTML = placeReviews
+      .map(r => `<p>⭐ ${r.rating} - ${r.comment}</p>`)
+      .join("");
+  }
+
+  // (optionnel) tu peux aussi remplir les amenities, guests, etc. plus tard
+});
 </script>
+
 
 
     </div>
