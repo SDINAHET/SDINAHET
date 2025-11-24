@@ -123,6 +123,7 @@ window.addEventListener("DOMContentLoaded", () => {
 });
 </script>
 
+<!-- <script src="static/js/data.js"></script> -->
 <script src="static/js/data.js"></script>
 <script>
 window.addEventListener("DOMContentLoaded", () => {
@@ -132,7 +133,6 @@ window.addEventListener("DOMContentLoaded", () => {
   const place = places.find((p) => p.id === id);
   if (!place) return;
 
-  // Tu as déjà ces éléments dans ton HTML :
   document.getElementById("place-title").textContent = place.name;
   document.getElementById("place-price").textContent = place.price + " €/nuit";
   document.getElementById("place-description").textContent = place.description;
@@ -149,6 +149,7 @@ window.addEventListener("DOMContentLoaded", () => {
   }
 });
 </script>
+
 
     </div>
 
