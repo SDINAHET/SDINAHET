@@ -45,3 +45,4 @@ root@UID7E:/mnt/d/Users/steph/Documents/acceuil_github/SDINAHET/MyPage2# tree
 root@UID7E:/mnt/d/Users/steph/Documents/acceuil_github/SDINAHET/MyPage2#
 ```
 
+https://sdinahet.github.io/SDINAHET/MyPage2/docs/
