@@ -8,7 +8,7 @@
 
 </head>
 
-<script src="static/js/data.js"></script>
+<!-- <script src="static/js/data.js"></script>
 <script>
 const urlParams = new URLSearchParams(window.location.search);
 const id = urlParams.get("id");
@@ -27,7 +27,7 @@ document.getElementById("place-content").innerHTML = `
         <li><strong>Salles de bain :</strong> ${place.bathrooms}</li>
     </ul>
 `;
-</script>
+</script> -->
 
 <body>
     <header>
@@ -104,6 +104,32 @@ document.getElementById("place-content").innerHTML = `
 </main>
 
 <script src="static/js/scripts.js"></script>
+<script src="static/js/data.js"></script>
+<script>
+window.addEventListener("DOMContentLoaded", () => {
+  const urlParams = new URLSearchParams(window.location.search);
+  const id = urlParams.get("id");
+
+  const place = places.find((p) => p.id === id);
+  if (!place) return;
+
+  // Tu as déjà ces éléments dans ton HTML :
+  document.getElementById("place-title").textContent = place.name;
+  document.getElementById("place-price").textContent = place.price + " €/nuit";
+  document.getElementById("place-description").textContent = place.description;
+  document.getElementById("place-location").textContent = place.city;
+
+  const reviewsContainer = document.getElementById("reviews-list");
+  const placeReviews = (window.reviews || []).filter(r => r.place_id === id);
+  if (placeReviews.length === 0) {
+    reviewsContainer.innerHTML = "<p>No reviews yet.</p>";
+  } else {
+    reviewsContainer.innerHTML = placeReviews
+      .map(r => `<p>⭐ ${r.rating} - ${r.comment}</p>`)
+      .join("");
+  }
+});
+</script>
 
     </div>
 
