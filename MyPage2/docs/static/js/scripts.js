@@ -143,7 +143,7 @@ async function createReview(placeId, rating, description) {
             body: JSON.stringify({
                 place_id: placeId,
                 rating: parseInt(rating),
-                text: description 
+                text: description
             })
         });
         return await handleResponse(response);
@@ -165,7 +165,7 @@ async function getCurrentUser() {
         }
 
         return await handleResponse(response);
-        
+
     } catch (error) {
         console.error('Erreur getCurrentUser:', error);
         return null;
@@ -175,7 +175,7 @@ async function getCurrentUser() {
 // === UI Functions ===
 
 // Variables globales pour le filtrage
-let allPlaces = []; 
+let allPlaces = [];
 let allReviews = {};
 
 // Charger toutes les reviews pour toutes les places
@@ -232,7 +232,7 @@ function priceFilter(places) {
 }
 
 
-// Afficher les places avec filtrage 
+// Afficher les places avec filtrage
 async function displayPlaces(places = null, maxPrice = null) {
     const container = document.getElementById('places-list');
     if (!container) return;
@@ -357,7 +357,7 @@ async function displayPlaceDetails() {
         displayAmenities(place);
         document.getElementById('place-price').textContent = `${place.price}€ /night`;
         document.getElementById('place-location').textContent =
-            (place.latitude && place.longitude) 
+            (place.latitude && place.longitude)
             ? `${place.latitude}, ${place.longitude}`
             : 'Unknown';
 
@@ -442,7 +442,7 @@ function displayAmenities(place) {
 async function displayReviews(placeId) {
     const container = document.getElementById('reviews-list');
     if (!container) return;
-    
+
     try {
         const reviews = await getReviewsByPlace(placeId);
         console.log('✅ Reviews reçues:', reviews);
@@ -461,7 +461,7 @@ async function displayReviews(placeId) {
                 <p class="comment">${review.text}</p>
             </div>
         `).join('');
-        
+
         console.log('Premier commentaire:', reviews[0].text);
 
     } catch (error) {
@@ -473,14 +473,14 @@ async function displayReviews(placeId) {
 function setupLoginForm() {
     const form = document.getElementById('login-form');
     if (!form) return;
-    
+
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
-        
+
         const email = document.getElementById('email').value;
         const password = document.getElementById('password').value;
         const errorDiv = document.getElementById('login-error');
-        
+
         try {
             await login(email, password);
             window.location.href = '/index';
@@ -497,7 +497,7 @@ function setupLoginForm() {
 function setupReviewForm() {
     const form = document.getElementById('review-form');
     if (!form) return;
-    
+
     form.addEventListener('submit', async (e) => {
         e.preventDefault();
 
@@ -505,7 +505,7 @@ function setupReviewForm() {
         const placeId = params.get('place_id');
         const rating = document.getElementById('rating').value;
         const comment = document.getElementById('comment').value;
-        
+
         console.log('Rating:', rating);
         console.log('Comment/Description:', comment);
         console.log('PlaceId:', placeId);
@@ -514,7 +514,7 @@ function setupReviewForm() {
             alert('ID du logement manquant');
             return;
         }
-        
+
         try {
             await createReview(placeId, rating, comment);
             alert('Review add succesfully !');
@@ -535,22 +535,22 @@ function checkAuth() {
 // === Initialisation au chargement de la page ===
 document.addEventListener('DOMContentLoaded', async () => {
     console.log('Scripts chargés, API:', API_URL);
-    
+
     // Page d'accueil
     if (document.getElementById('places-list')) {
         await loadAndDisplayPlaces();  // ← Attendre que les places se chargent
     }
-    
+
     // Page de détails
     if (document.getElementById('place-title')) {
         displayPlaceDetails();
     }
-    
+
     // Page de login
     if (document.getElementById('login-form')) {
         setupLoginForm();
     }
-    
+
     // Page d'ajout d'avis
     if (document.getElementById('review-form')) {
         checkAuth();
@@ -576,7 +576,7 @@ document.addEventListener('DOMContentLoaded', async () => {
                     method: "POST",
                     credentials: "include"
                 });
-                window.location.href = "/login";
+                window.location.href = "login";
             };
         }
 
