@@ -9,6 +9,25 @@
 </head>
 
 <script src="static/js/data.js"></script>
+<script>
+const urlParams = new URLSearchParams(window.location.search);
+const id = urlParams.get("id");
+
+const place = places.find(p => p.id === id);
+
+document.getElementById("place-content").innerHTML = `
+    <h1>${place.name}</h1>
+    <img src="${place.image}" class="place-img">
+    <p>${place.description}</p>
+    <ul>
+        <li><strong>Ville :</strong> ${place.city}</li>
+        <li><strong>Prix :</strong> ${place.price}€/nuit</li>
+        <li><strong>Invités :</strong> ${place.guests}</li>
+        <li><strong>Chambres :</strong> ${place.bedrooms}</li>
+        <li><strong>Salles de bain :</strong> ${place.bathrooms}</li>
+    </ul>
+`;
+</script>
 
 <body>
     <header>

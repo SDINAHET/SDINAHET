@@ -10,24 +10,45 @@ const users = {
 };
 
 /* -------------------------
-   PLACES (exemple)
+   LISTE DES PLACES
 ------------------------- */
-const places = {
-    "p1": {
+
+const places = [
+    {
         id: "p1",
-        name: "Villa Bretagne",
-        location: "Rennes",
-        price_per_night: 120,
-        description: "Belle maison proche du parc du Thabor."
+        name: "Appartement Rennes",
+        city: "Rennes",
+        price: 75,
+        guests: 2,
+        bedrooms: 1,
+        bathrooms: 1,
+        description: "Petit appartement cosy proche du métro et du centre.",
+        image: "static/images/pic-work-01.jpg"
     },
-    "p2": {
+    {
         id: "p2",
-        name: "Appartement Montfort",
-        location: "Montfort-sur-Meu",
-        price_per_night: 80,
-        description: "Appartement calme et lumineux."
+        name: "Villa Côtes-d'Armor",
+        city: "Plouha",
+        price: 140,
+        guests: 6,
+        bedrooms: 3,
+        bathrooms: 2,
+        description: "Superbe villa avec vue mer.",
+        image: "static/images/oldhome.png"
+    },
+    {
+        id: "p3",
+        name: "Studio Montfort-sur-Meu",
+        city: "Montfort",
+        price: 59,
+        guests: 1,
+        bedrooms: 1,
+        bathrooms: 1,
+        description: "Studio parfait pour un étudiant ou un week-end calme.",
+        image: "static/images/logo.png"
     }
-};
+];
+
 
 /* -------------------------
    REVIEWS (liées aux places)
