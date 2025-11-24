@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Place details - HBnB</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+
+</head>
+<body>
+    <header>
+    <img src="/static/images/logo.png" class="logo" alt="App Logo">
+    <nav>
+        <div class="nav-links">
+            <button id="home-btn">Home</button>
+            <button id="login-btn">Login</button>
+            <button id="logout-btn" style="display:none;">Logout</button>
+        </div>
+    </nav>
+</header>
+
+    <div class="content">
+        
+<main>
+    <section id="place-details">
+        
+        <!-- HEADER -->
+        <div class="place-header">
+            <h1 id="place-title">Loading...</h1>
+            <p class="price-tag" id="place-price"></p>
+        </div>
+
+        <!-- CONTENT -->
+        <div class="place-content">
+            <div class="place-main-info">
+                <h2>Description</h2>
+                <p id="place-description"></p>
+
+                <div class="place-meta">
+                    <div class="meta-item">
+                        <strong>Host:</strong>
+                        <span id="place-host">-</span>
+                    </div>
+
+                    <div class="meta-item">
+                        <strong>Location:</strong>
+                        <span id="place-location">-</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="place-sidebar">
+                <div class="amenities-section">
+                    <h3>What this accommodation offers</h3>
+                    <ul id="place-amenities">
+                        <li>Loading...</li>
+                    </ul>
+                    <div class="amenities-list"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- REVIEWS -->
+        <div class="reviews-section">
+            <h2>Traveler reviews</h2>
+            <div id="reviews-list">
+                <p>Loading reviews...</p>
+            </div>
+        </div>
+
+        <!-- ADD REVIEW BUTTON -->
+        <button id="add-review-btn" class="primary-btn" data-place-id="">
+            Add your own review
+        </button>
+
+        <!-- LOGIN WARNING -->
+        <p id="login-warning" class="warning" style="display:none; color:red; margin-top:8px;">
+            You must be logged in to add a review.
+        </p>
+
+    </section>
+</main>
+
+<script src="static/js/scripts.js"></script>
+
+    </div>
+
+    <footer>
+    <p style="text-align:center; padding:20px; color:#1a1a1a;">
+        &copy; 2025 HBnB — All rights reserved.
+    </p>
+</footer>
+</body>
+</html>
