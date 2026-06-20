@@ -1,0 +1,97 @@
+name: Generate Java Coffee Animation
+
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - main
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Generate SVG
+        run: |
+          mkdir -p dist
+          cat > dist/java-coffee-loading.svg <<'EOF'
+          <svg width="900" height="260" viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg">
+            <style>
+              .bg { fill:#0d1117; }
+              .title { font:700 28px monospace; fill:#6DB33F; }
+              .text { font:600 20px monospace; fill:#e6edf3; }
+              .ready { font:700 24px monospace; fill:#6DB33F; opacity:0; animation:ready 6s infinite; }
+              .cup { font:700 34px monospace; fill:#e6edf3; }
+              .steam { font:700 28px monospace; fill:#6DB33F; animation:steam 1.4s infinite alternate; }
+              .box { fill:none; stroke:#6DB33F; stroke-width:3; }
+              .fill { fill:#6DB33F; opacity:0; animation:load 6s infinite; }
+
+              .b1 { animation-delay:.5s; }
+              .b2 { animation-delay:1s; }
+              .b3 { animation-delay:1.5s; }
+              .b4 { animation-delay:2s; }
+              .b5 { animation-delay:2.5s; }
+              .b6 { animation-delay:3s; }
+              .b7 { animation-delay:3.5s; }
+              .b8 { animation-delay:4s; }
+
+              @keyframes load {
+                0%, 10% { opacity:0; }
+                20%, 90% { opacity:1; }
+                100% { opacity:0; }
+              }
+
+              @keyframes ready {
+                0%, 70% { opacity:0; }
+                80%, 95% { opacity:1; }
+                100% { opacity:0; }
+              }
+
+              @keyframes steam {
+                from { opacity:.3; transform:translateY(4px); }
+                to { opacity:1; transform:translateY(-4px); }
+              }
+            </style>
+
+            <rect class="bg" width="900" height="260" rx="18"/>
+
+            <text x="450" y="45" text-anchor="middle" class="steam">☕ ☕ ☕</text>
+
+            <text x="450" y="88" text-anchor="middle" class="title">Java Coffee loading...</text>
+
+            <g transform="translate(250 125)">
+              <rect class="box" x="0" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="50" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="100" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="150" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="200" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="250" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="300" y="0" width="45" height="45" rx="5"/>
+              <rect class="box" x="350" y="0" width="45" height="45" rx="5"/>
+
+              <rect class="fill b1" x="0" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b2" x="50" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b3" x="100" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b4" x="150" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b5" x="200" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b6" x="250" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b7" x="300" y="0" width="45" height="45" rx="5"/>
+              <rect class="fill b8" x="350" y="0" width="45" height="45" rx="5"/>
+            </g>
+
+            <text x="450" y="220" text-anchor="middle" class="ready">Spring Boot ready ✔</text>
+          </svg>
+          EOF
+
+      - name: Push SVG to output branch
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

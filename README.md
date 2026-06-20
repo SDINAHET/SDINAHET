@@ -265,7 +265,32 @@ Topics I currently explore:
 ## Trophies
 
 <p align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=tokyonight&no-frame=true&row=1&column=6"/>
+
+<img src="https://github-profile-trophy.vercel.app/?username=SDINAHET&theme=tokyonight&margin-w=15&margin-h=15&no-frame=true"/>
+
+</p>
+
+---
+
+## 📊 GitHub Analytics
+
+
+<p align="center">
+
+<img height="170"
+src="https://github-readme-stats.vercel.app/api?username=SDINAHET&show_icons=true&theme=tokyonight&hide_border=true"/>
+
+<img height="170"
+src="https://github-readme-stats.vercel.app/api/top-langs/?username=SDINAHET&layout=compact&theme=tokyonight&hide_border=true"/>
+
+</p>
+
+
+<p align="center">
+
+<img
+src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyonight&hide_border=true"/>
+
 </p>
 
 ---
@@ -298,6 +323,13 @@ Topics I currently explore:
 </p>
 
 ---
+
+## ☕ Java Coffee
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/java-coffee-loading.svg" />
+</p>
+
 
 <p align="center">
   <i>Building secure applications one commit at a time.</i>
