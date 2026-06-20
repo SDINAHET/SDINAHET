@@ -26,18 +26,19 @@ I also enjoy working on self-hosted infrastructure, monitoring tools and automat
   <img src="https://skillicons.dev/icons?i=java,spring,postgres,mongodb,docker,linux,bash,git,github,html,css,js,python,vscode"/>
 </p> -->
 
-## 🚀 Tech Stack
+## 🛠️ Environment
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=java,spring,maven,postgres,mongodb,docker,linux,bash,git,github,githubactions,html,css,js,python,vscode"/>
+
+<img src="https://skillicons.dev/icons?i=java,spring,maven,postgres,mongodb,docker,linux,bash,git,github,vscode"/>
+
 </p>
 
 <p align="center">
-  <img src="https://skillicons.dev/icons?i=swagger,grafana,prometheus,cloudflare"/>
-</p>
+<b>Also used</b><br>
 
-<p align="center">
-  <b>Also used:</b> WSL • Apache Reverse Proxy • Authelia • Traefik • Uptime Kuma
+Swagger • Prometheus • Grafana • Traefik • Authelia • Apache • WSL • Codex • ChatGPT
+
 </p>
 
 ---
