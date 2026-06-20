@@ -142,7 +142,7 @@ Prometheus • Grafana • Uptime Kuma • Cloudflare
 
 <img src="https://skillicons.dev/icons?i=docker,linux,bash,git,github,githubactions,vscode" />
 
-</p>
+<!-- </p>
 
 
 <p align="center">
@@ -154,6 +154,25 @@ WSL • Swagger • Apache • Traefik • Authelia
 <br>
 
 Prometheus • Grafana • Uptime Kuma • Cloudflare
+
+</p> -->
+
+<p align="center">
+
+<b>Infrastructure</b><br><br>
+
+<img src="https://img.shields.io/badge/WSL-4D4D4D?style=for-the-badge&logo=windows-terminal&logoColor=white"/>
+<img src="https://img.shields.io/badge/Swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black"/>
+<img src="https://img.shields.io/badge/Apache-D22128?style=for-the-badge&logo=apache&logoColor=white"/>
+<img src="https://img.shields.io/badge/Traefik-24A1C1?style=for-the-badge&logo=traefikproxy&logoColor=white"/>
+<img src="https://img.shields.io/badge/Authelia-113155?style=for-the-badge&logo=authelia&logoColor=white"/>
+
+<br><br>
+
+<img src="https://img.shields.io/badge/Prometheus-E6522C?style=for-the-badge&logo=prometheus&logoColor=white"/>
+<img src="https://img.shields.io/badge/Grafana-F46800?style=for-the-badge&logo=grafana&logoColor=white"/>
+<img src="https://img.shields.io/badge/Uptime_Kuma-5CDD8B?style=for-the-badge&logo=uptimekuma&logoColor=black"/>
+<img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white"/>
 
 </p>
 
