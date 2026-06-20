@@ -264,7 +264,7 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 ---
 
-# 📈 Activity
+# Activity
 
 
 <p align="center">
@@ -336,7 +336,7 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 ---
 
-## 📫 Contact
+## Contact
 
 <p align="center">
 
