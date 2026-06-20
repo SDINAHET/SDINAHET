@@ -277,39 +277,30 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 ---
 
-# 🐍 Contribution Snake
-
+## 🐍 Contribution Snake
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/github-contribution-grid-snake-dark.svg"/>
-
+  <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/github-contribution-grid-snake-dark.svg"/>
 </p>
-
-
 
 ---
 
-# 👾 Contribution Pacman
-
+## 👾 Contribution Pacman
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/pacman-contribution-graph-dark.svg"/>
-
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/pacman-contribution-graph-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/pacman-contribution-graph.svg">
+    <img alt="Pacman contribution graph" src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/pacman-contribution-graph.svg">
+  </picture>
 </p>
-
-
 
 ---
 
-# ☕ Java Coffee
-
+## ☕ Java Coffee
 
 <p align="center">
-
-<img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/java-coffee-loading.svg"/>
-
+  <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/java-coffee-loading.svg"/>
 </p>
 
 
