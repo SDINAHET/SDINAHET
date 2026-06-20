@@ -26,11 +26,84 @@ I also enjoy working on self-hosted infrastructure, monitoring tools and automat
   <img src="https://skillicons.dev/icons?i=java,spring,postgres,mongodb,docker,linux,bash,git,github,html,css,js,python,vscode"/>
 </p> -->
 
-## 🛠️ Environment
+<!-- ## 🛠️ Environment
 
 <p align="center">
 
-<img src="https://skillicons.dev/icons?i=java,spring,maven,postgres,mongodb,docker,linux,bash,git,github,vscode"/>
+<img src="https://skillicons.dev/icons?i=java,spring,maven,postgres,mongodb,docker,python,linux,bash,git,github,vscode"/>
+
+</p> -->
+
+<!-- ## 🛠️ Environment
+
+### Backend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,python"/>
+</p>
+
+### Databases
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,sqlite,mysql,SQL Server"/>
+</p>
+
+### Frontend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap,react"/>
+</p>
+
+### DevOps & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,linux,bash,git,github,githubactions,vscode"/>
+</p>
+
+<p align="center">
+  <b>Also used:</b> WSL • Swagger/OpenAPI • Apache Reverse Proxy • Traefik • Authelia • Prometheus • Grafana • Uptime Kuma • Cloudflare • ChatGPT • Codex
+</p> -->
+
+## 🛠️ Environment
+
+
+### ☕ Backend & APIs
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=java,spring,maven,python"/>
+</p>
+
+
+### 🗄️ Databases
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite"/>
+</p>
+
+
+### 🌐 Frontend
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=html,css,js,bootstrap"/>
+</p>
+
+
+### 🐳 DevOps & Tools
+
+<p align="center">
+  <img src="https://skillicons.dev/icons?i=docker,linux,bash,git,github,githubactions,vscode"/>
+</p>
+
+
+### 🔐 Security & Infrastructure
+
+<p align="center">
+
+WSL • Swagger/OpenAPI • Apache • Traefik • Authelia
+
+<br>
+
+Prometheus • Grafana • Uptime Kuma • Cloudflare
 
 </p>
 
