@@ -307,7 +307,7 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 ---
 
----
+<!-- ---
 
 ## Contact
 
@@ -334,4 +334,30 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 <i>Building secure applications one commit at a time.</i>
 
+</p> -->
+
+---
+
+## 📫 Contact
+
+<p align="center">
+
+<a href="https://github.com/SDINAHET">
+<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github"/>
+</a>
+
+<a href="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/">
+<img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin"/>
+</a>
+
+<a href="https://loto-tracker.fr">
+<img src="https://img.shields.io/badge/Loto_Tracker-6DB33F?style=for-the-badge"/>
+</a>
+
+</p>
+
+---
+
+<p align="center">
+<i>Building secure applications one commit at a time.</i>
 </p>
