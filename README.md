@@ -272,34 +272,66 @@ Topics I currently explore:
 
 ---
 
+---
+
 ## 📊 GitHub Analytics
 
-
 <p align="center">
-
-<img height="170"
-src="https://github-readme-stats.vercel.app/api?username=SDINAHET&show_icons=true&theme=tokyonight&hide_border=true"/>
-
-<img height="170"
-src="https://github-readme-stats.vercel.app/api/top-langs/?username=SDINAHET&layout=compact&theme=tokyonight&hide_border=true"/>
-
+  <img height="170" src="https://github-readme-stats.vercel.app/api?username=SDINAHET&show_icons=true&theme=tokyonight&hide_border=true"/>
+  <img height="170" src="https://github-readme-stats.vercel.app/api/top-langs/?username=SDINAHET&layout=compact&theme=tokyonight&hide_border=true"/>
 </p>
 
-
 <p align="center">
-
-<img
-src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyonight&hide_border=true"/>
-
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyonight&hide_border=true"/>
 </p>
 
 ---
 
-## Contribution Snake
+## 📈 Activity
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SDINAHET&theme=tokyo-night&hide_border=true"/>
+</p>
+
+---
+
+## ☕ Java Coffee
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/java-coffee-loading.svg"/>
+</p>
+
+---
+
+## 🐍 Contribution Snake
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/github-contribution-grid-snake-dark.svg"/>
 </p>
+
+---
+
+## Contact
+
+<p align="center">
+  <a href="https://github.com/SDINAHET">GitHub</a>
+  •
+  <a href="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/">LinkedIn</a>
+  •
+  <a href="https://loto-tracker.fr">Portfolio</a>
+</p>
+
+---
+
+<p align="center">
+  <i>Building secure applications one commit at a time.</i>
+</p>
+
+<!-- <!-- ## Contribution Snake
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/github-contribution-grid-snake-dark.svg"/>
+</p> -->
 
 ---
 ## Contribution Pacman
@@ -308,7 +340,7 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
   <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/pacman-contribution-graph-dark.svg" />
 </p>
 
----
+--- -->
 
 <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/github-contribution-grid-snake-dark.svg"/>
 
@@ -324,7 +356,7 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 ---
 
-## ☕ Java Coffee
+<!-- ## ☕ Java Coffee
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/SDINAHET/SDINAHET/output/java-coffee-loading.svg" />
@@ -333,5 +365,5 @@ src="https://github-readme-streak-stats.herokuapp.com/?user=SDINAHET&theme=tokyo
 
 <p align="center">
   <i>Building secure applications one commit at a time.</i>
-</p>
+</p> -->
 
