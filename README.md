@@ -34,13 +34,6 @@ I also enjoy working on self-hosted infrastructure, monitoring tools and automat
 
 </p>
 
-<p align="center">
-<b>Also used</b><br>
-
-Swagger • Prometheus • Grafana • Traefik • Authelia • Apache • WSL • Codex • ChatGPT
-
-</p>
-
 ---
 
 ## Featured Projects
