@@ -185,6 +185,20 @@ https://github.com/SDINAHET/LOTO_API_v8
 Production:
 https://loto-tracker.fr
 
+<p align="center">
+
+<img src="https://img.shields.io/badge/Java-21-orange"/>
+
+<img src="https://img.shields.io/badge/Spring_Boot-3.x-6DB33F"/>
+
+<img src="https://img.shields.io/badge/PostgreSQL-14-blue"/>
+
+<img src="https://img.shields.io/badge/MongoDB-7-green"/>
+
+<img src="https://img.shields.io/badge/Docker-ready-blue"/>
+
+</p>
+
 ---
 
 ### HBnB
