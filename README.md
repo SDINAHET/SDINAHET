@@ -64,7 +64,7 @@ I also enjoy working on self-hosted infrastructure, monitoring tools and automat
   <b>Also used:</b> WSL • Swagger/OpenAPI • Apache Reverse Proxy • Traefik • Authelia • Prometheus • Grafana • Uptime Kuma • Cloudflare • ChatGPT • Codex
 </p> -->
 
-## 🛠️ Environment
+<!-- ## 🛠️ Environment
 
 
 ### ☕ Backend & APIs
@@ -100,6 +100,56 @@ I also enjoy working on self-hosted infrastructure, monitoring tools and automat
 <p align="center">
 
 WSL • Swagger/OpenAPI • Apache • Traefik • Authelia
+
+<br>
+
+Prometheus • Grafana • Uptime Kuma • Cloudflare
+
+</p> -->
+
+## 🛠️ Environment
+
+<p align="center">
+
+<b>Backend</b><br>
+
+<img src="https://skillicons.dev/icons?i=java,spring,maven,python" />
+
+</p>
+
+
+<p align="center">
+
+<b>Frontend</b><br>
+
+<img src="https://skillicons.dev/icons?i=html,css,js,bootstrap" />
+
+</p>
+
+
+<p align="center">
+
+<b>Data</b><br>
+
+<img src="https://skillicons.dev/icons?i=postgres,mongodb,mysql,sqlite" />
+
+</p>
+
+
+<p align="center">
+
+<b>DevOps</b><br>
+
+<img src="https://skillicons.dev/icons?i=docker,linux,bash,git,github,githubactions,vscode" />
+
+</p>
+
+
+<p align="center">
+
+<b>Infrastructure</b><br>
+
+WSL • Swagger • Apache • Traefik • Authelia
 
 <br>
 
