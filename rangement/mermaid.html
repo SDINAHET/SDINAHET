@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diagramme Mermaid</title>
+
+    <!-- Importation de Mermaid.js -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mermaid/10.9.3/mermaid.min.js"></script>
+
+    <script>
+        // Attendre que le DOM soit chargé avant d'initialiser Mermaid
+        document.addEventListener("DOMContentLoaded", function () {
+            mermaid.initialize({ startOnLoad: true });
+            mermaid.init(undefined, document.querySelectorAll(".mermaid"));
+        });
+    </script>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+        }
+        .mermaid {
+            text-align: center;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Mon Diagramme en Mermaid</h1>
+
+    <!-- Diagramme Mermaid -->
+    <div class="mermaid">
+        graph TD
+        A[Départ] --> B[Étape 1]
+        B --> C[Étape 2]
+        C --> D[Arrivée]
+    </div>
+
+</body>
+</html>
+
+

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+
+{% block content %}
+<main>
+    <!-- Filter section -->
+    <section id="filter">
+        <label for="price-filter">Max Price:</label>
+        <select id="price-filter">
+        </select>
+    </section>
+
+    <!-- Liste of places -->
+    <section id="places-list"></section>
+
+</main>
+
+<script src="{{ url_for('static', filename='js/scripts.js') }}"></script>
+
+{% endblock %}

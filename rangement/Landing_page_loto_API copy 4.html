@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Loto Tracker API - Next Gen Lottery Analytics</title>
+    <link rel="stylesheet" href="styles.css" />
+    <style>
+      body {
+        font-family: "Arial", sans-serif;
+        margin: 0;
+        padding: 0;
+        background: linear-gradient(180deg, #0a0a23, #001f3f);
+        color: white;
+        text-align: center;
+      }
+      header {
+        background: linear-gradient(90deg, #003366, #00509e);
+        padding: 1rem 0;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      }
+      header nav ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+      }
+      header nav ul li {
+        margin: 0 20px;
+      }
+      header nav ul li a {
+        color: white;
+        font-size: 1.2rem;
+        text-decoration: none;
+        font-weight: bold;
+      }
+      .hero {
+        background: url('https://github.com/SDINAHET/SDINAHET/blob/main/portfolio/loto_tracker.png?raw=true') center/cover no-repeat;
+        padding: 200px 20px;
+        text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+      }
+      .hero h1 {
+        font-size: 4rem;
+        font-weight: bold;
+        background: rgba(0, 0, 0, 0.7);
+        display: inline-block;
+        padding: 20px 30px;
+        border-radius: 12px;
+      }
+      .hero p {
+        font-size: 2rem;
+        max-width: 750px;
+        margin: 20px auto;
+        background: rgba(0, 0, 0, 0.6);
+        padding: 15px;
+        border-radius: 8px;
+      }
+      .feature-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px;
+        margin: 60px 0;
+      }
+      .feature {
+        width: 350px;
+        background: #004080;
+        padding: 30px;
+        border-radius: 12px;
+        text-align: center;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+        transition: transform 0.3s ease;
+      }
+      .feature:hover {
+        transform: scale(1.05);
+      }
+      .feature img {
+        width: 120px;
+        filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.5));
+      }
+      .gallery img {
+        width: 300px;
+        border-radius: 10px;
+        margin: 15px;
+        box-shadow: 0 0 15px rgba(255, 255, 255, 0.2);
+      }
+      video {
+        width: 80%;
+        margin-top: 40px;
+        border-radius: 10px;
+        box-shadow: 0 0 20px rgba(255, 255, 255, 0.2);
+      }
+      footer {
+        background: #002a4d;
+        padding: 30px;
+        margin-top: 60px;
+      }
+      .cta {
+        display: inline-block;
+        background: #ffcc00;
+        color: black;
+        padding: 20px 40px;
+        text-decoration: none;
+        font-size: 1.5rem;
+        font-weight: bold;
+        border-radius: 8px;
+        margin-top: 30px;
+        box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#demo">Demo</a></li>
+          <li><a href="https://github.com/SDINAHET/Loto_API" target="_blank">GitHub</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <h1>Loto Tracker API</h1>
+      <p>Next-Gen Lottery Tracking & Analytics - Secure. Smart. Automated.</p>
+      <a href="https://github.com/SDINAHET/Loto_API" class="cta">Get Started</a>
+    </section>
+
+    <section id="features">
+      <h2>Key Features</h2>
+      <div class="feature-container">
+        <div class="feature">
+          <img src="portfolio/security.jpg" alt="Security" />
+          <h3>Secure Authentication</h3>
+          <p>Protect user data with JWT-based authentication.</p>
+        </div>
+        <div class="feature">
+          <img src="portfolio/db.jpg" alt="Database" />
+          <h3>Hybrid Database</h3>
+          <p>Supports SQLite and MongoDB for optimal performance.</p>
+        </div>
+        <div class="feature">
+          <img src="portfolio/analyse.jpg" alt="Analysis" />
+          <h3>Automated Results</h3>
+          <p>Compare tickets instantly with official Loto draws.</p>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>&copy; 2025 Loto Tracker API. All rights reserved.</p>
+      <div>
+        <a href="https://www.linkedin.com/in/st%C3%A9phane-dinahet-3b363189/" target="_blank">LinkedIn</a>
+        |
+        <a href="https://github.com/SDINAHET/Loto_API" target="_blank">GitHub</a>
+      </div>
+    </footer>
+  </body>
+</html>
