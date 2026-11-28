@@ -1,0 +1,33 @@
+<svg width="900" height="220" viewBox="0 0 900 220" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    .bg{fill:#0d1117}.title{font:700 26px monospace;fill:#6DB33F}.txt{font:600 22px monospace;fill:#e6edf3}
+    .ready{font:700 24px monospace;fill:#6DB33F;opacity:0;animation:ready 5s infinite}
+    .box{fill:none;stroke:#6DB33F;stroke-width:3}.fill{fill:#6DB33F;opacity:0;animation:load 5s infinite}
+    .b1{animation-delay:.4s}.b2{animation-delay:.8s}.b3{animation-delay:1.2s}.b4{animation-delay:1.6s}
+    .b5{animation-delay:2s}.b6{animation-delay:2.4s}.b7{animation-delay:2.8s}.b8{animation-delay:3.2s}
+    @keyframes load{0%,15%{opacity:0}25%,85%{opacity:1}100%{opacity:0}}
+    @keyframes ready{0%,65%{opacity:0}75%,95%{opacity:1}100%{opacity:0}}
+  </style>
+  <rect class="bg" width="900" height="220" rx="16"/>
+  <text x="450" y="45" text-anchor="middle" class="txt">☕ ☕ ☕</text>
+  <text x="450" y="85" text-anchor="middle" class="title">Java Coffee loading...</text>
+  <g transform="translate(250 115)">
+    <rect class="box" x="0" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="50" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="100" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="150" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="200" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="250" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="300" y="0" width="45" height="45" rx="5"/>
+    <rect class="box" x="350" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b1" x="0" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b2" x="50" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b3" x="100" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b4" x="150" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b5" x="200" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b6" x="250" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b7" x="300" y="0" width="45" height="45" rx="5"/>
+    <rect class="fill b8" x="350" y="0" width="45" height="45" rx="5"/>
+  </g>
+  <text x="450" y="195" text-anchor="middle" class="ready">Spring Boot ready ✔</text>
+</svg>
